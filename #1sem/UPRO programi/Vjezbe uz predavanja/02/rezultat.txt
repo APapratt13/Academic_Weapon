@@ -1,0 +1,5 @@
+Upisite 4 cijela broja (po jednu znamenku) > z1 = 0
+z2 = 7998712
+z3 = 4200944
+z4 = 4201035
+m = 846081675
