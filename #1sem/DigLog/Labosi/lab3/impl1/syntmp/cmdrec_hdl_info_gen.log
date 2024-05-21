@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\DL-labosi\lab3\impl1\synwork\lab3_impl1_hdl_.srs  -top  slova  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\DL-labosi\lab3\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work C:\DL-labosi\lab3\brojke.vhd -lib work C:\DL-labosi\lab3\serial_tx.vhd -lib work C:\DL-labosi\lab3\slova.vhd -lib work C:\DL-labosi\lab3\kapa.vhd  -log  C:\DL-labosi\lab3\impl1\syntax.log  -fileorder  C:\DL-labosi\lab3\impl1\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\lab3_impl1_hdl_.srs -top slova -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work ..\..\brojke.vhd -lib work ..\..\serial_tx.vhd -lib work ..\..\slova.vhd -lib work ..\..\kapa.vhd -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:0
+file:..\synwork\lab3_impl1_hdl_.srs|io:o|time:0|size:-1|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd|io:i|time:1542241930|size:95858|exec:0|csum:09A233CA3378C2C7D322DAC246A99AC8
+file:..\..\brojke.vhd|io:i|time:1701630706|size:925|exec:0|csum:AE4704C5D08127BD149084834E3A160A
+file:..\..\serial_tx.vhd|io:i|time:1699615713|size:3553|exec:0|csum:67DC34AFD5154F4098AB4B584C063EF7
+file:..\..\slova.vhd|io:i|time:1701883205|size:2753|exec:0|csum:6FF4D4883F3F9028B62E65F4DCF25BD3
+file:..\..\kapa.vhd|io:i|time:1701884233|size:922|exec:0|csum:8BD3034A4E51FF7763C52178B5B7EBA0
+file:..\syntax.log|io:o|time:1701884248|size:1027|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1554106868|size:5997056|exec:1|csum:DAAAD176B5AB08B7BBDB4E321AED1C72

@@ -1,0 +1,2 @@
+@W: MO129 :"c:\dl-labosi\lab3\serial_tx.vhd":78:1:78:2|Sequential instance serializer.R_byte_old[7] is reduced to a combinational gate by constant propagation.
+@W: MT420 |Found inferred clock slova|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.

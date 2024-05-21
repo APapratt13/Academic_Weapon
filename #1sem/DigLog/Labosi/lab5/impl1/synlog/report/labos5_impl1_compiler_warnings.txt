@@ -1,0 +1,4 @@
+@W: CG296 :"C:\DL-labosi\lab5\labos.vhd":48:4:48:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\DL-labosi\lab5\labos.vhd":57:31:57:31|Referenced variable r is not in sensitivity list.
+@W: CL260 :"C:\DL-labosi\lab5\morse_toplevel.vhd":35:4:35:5|Pruning register bit 31 of R_clk_div(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

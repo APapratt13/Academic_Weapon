@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  morse_top  -multisrs  C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_comp.srs  -osyn  C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_mult.srs  -log  C:\DL-labosi\lab5\impl1\synlog\labos5_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top morse_top -multisrs ..\synwork\labos5_impl1_comp.srs -osyn ..\synwork\labos5_impl1_mult.srs -log ..\synlog\labos5_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\labos5_impl1_comp.srs|io:i|time:1705069276|size:11939|exec:0|csum:3143073B45BE8ADC410D0BC90F58FC65
+file:..\synwork\labos5_impl1_mult.srs|io:o|time:1705069277|size:5269|exec:0|csum:
+file:..\synlog\labos5_impl1_multi_srs_gen.srr|io:o|time:1705069277|size:1086|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554106952|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

@@ -1,0 +1,4 @@
+@W: MO129 :"c:\dl-labosi\lab2\sranje\serial_tx.vhd":78:1:78:2|Sequential instance I1.R_byte_old[7] is reduced to a combinational gate by constant propagation.
+@W: MT246 :"c:\dl-labosi\lab2\sranje\impl1\lab2.v":47:4:47:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\dl-labosi\lab2\sranje\impl1\lab2.v":32:4:32:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock lab2|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.

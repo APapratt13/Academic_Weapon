@@ -1,0 +1,21 @@
+@P:  Worst Slack : -2.164
+@P:  morse_top|R_symbol_clk_derived_clock - Estimated Frequency : 107.2 MHz
+@P:  morse_top|R_symbol_clk_derived_clock - Requested Frequency : 200.0 MHz
+@P:  morse_top|R_symbol_clk_derived_clock - Estimated Period : 9.328
+@P:  morse_top|R_symbol_clk_derived_clock - Requested Period : 5.000
+@P:  morse_top|R_symbol_clk_derived_clock - Slack : -2.164
+@P:  morse_top|clk_25m - Estimated Frequency : 107.2 MHz
+@P:  morse_top|clk_25m - Requested Frequency : 200.0 MHz
+@P:  morse_top|clk_25m - Estimated Period : 9.328
+@P:  morse_top|clk_25m - Requested Period : 5.000
+@P:  morse_top|clk_25m - Slack : 0.180
+@P:  System - Estimated Frequency : 928.5 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 1.077
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 3.923
+@P:  Total Area : 177.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:03s

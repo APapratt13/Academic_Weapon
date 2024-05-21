@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\DL-labosi\lab3\slova.vhd":4:7:4:11|Top entity is set to slova.
+@N: CD630 :"C:\DL-labosi\lab3\slova.vhd":4:7:4:11|Synthesizing work.slova.behavioral.
+@N: CD630 :"C:\DL-labosi\lab3\kapa.vhd":4:7:4:10|Synthesizing work.kapa.behavioral.
+@N: CD630 :"C:\DL-labosi\lab3\brojke.vhd":4:7:4:12|Synthesizing work.brojke.behavioral.
+@N: CD630 :"C:\DL-labosi\lab3\serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral.
+@N|Running in 64-bit mode
+

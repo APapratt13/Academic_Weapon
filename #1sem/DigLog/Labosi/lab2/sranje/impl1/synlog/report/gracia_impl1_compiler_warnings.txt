@@ -1,0 +1,5 @@
+@W: CG360 :"C:\DL-labosi\lab2\sranje\impl1\lab2.v":28:5:28:7|Removing wire N_1, as there is no assignment to it.
+@W: CL318 :"C:\DL-labosi\lab2\sranje\impl1\lab2.v":10:13:10:15|*Output led has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL156 :"C:\DL-labosi\lab2\sranje\impl1\lab2.v":28:5:28:7|*Input N_1 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\DL-labosi\lab2\sranje\impl1\lab2.v":56:26:56:64|*Input un1_N_45[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+

@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\DL-labosi\lab6\datapath.vhd":7:7:7:14|Top entity is set to datapath.
+@N: CD630 :"C:\DL-labosi\lab6\datapath.vhd":7:7:7:14|Synthesizing work.datapath.x.
+@N: CD630 :"C:\DL-labosi\lab6\upravljac.vhd":7:7:7:15|Synthesizing work.upravljac.x.
+@N: CD630 :"C:\DL-labosi\lab6\rf_4x4_1w_2r.vhd":7:7:7:14|Synthesizing work.reg_file.x.
+@N: CD630 :"C:\DL-labosi\lab6\aloo.vhd":6:7:6:9|Synthesizing work.alu.arch.
+@N|Running in 64-bit mode
+

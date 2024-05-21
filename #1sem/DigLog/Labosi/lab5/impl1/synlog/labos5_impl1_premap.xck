@@ -1,0 +1,2 @@
+ckid0_0:@|S:clk_25m@|E:R_clk_div[30:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:R_symbol_clk.Q[0]@|E:R_led[7:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2

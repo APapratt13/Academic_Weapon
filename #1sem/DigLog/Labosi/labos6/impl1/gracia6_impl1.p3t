@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "gracia6_impl1.log"
+-o "gracia6_impl1.csv"
+-pr "gracia6_impl1.prf"

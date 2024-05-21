@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\DL-labosi\lab2\sranje\impl1\synwork\gracia_impl1_hdl_.srs  -top  lab2  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\DL-labosi\lab2\sranje\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\DL-labosi\lab2\sranje\serial_tx.vhd  -log  C:\DL-labosi\lab2\sranje\impl1\syntax.log  -fileorder  C:\DL-labosi\lab2\sranje\impl1\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\gracia_impl1_hdl_.srs -top lab2 -prodtype synplify_pro -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\serial_tx.vhd -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:0
+file:..\synwork\gracia_impl1_hdl_.srs|io:o|time:0|size:-1|exec:0|csum:
+file:..\..\serial_tx.vhd|io:i|time:1699615713|size:3553|exec:0|csum:67DC34AFD5154F4098AB4B584C063EF7
+file:..\syntax.log|io:o|time:1699616944|size:956|exec:0|csum:
+file:..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1554106868|size:5997056|exec:1|csum:DAAAD176B5AB08B7BBDB4E321AED1C72

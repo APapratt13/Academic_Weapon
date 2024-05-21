@@ -1,0 +1,52 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+1        C:\DL-labosi\labos6\datapath.vhd (2024-01-18 14:13:31, 2024-01-18 14:28:31)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 4
+MID:  lib.cell.view
+0        work.alu.arch may have changed because the following files changed:
+                        C:\DL-labosi\labos6\datapath.vhd (2024-01-18 14:13:31, 2024-01-18 14:28:31) <-- (may instantiate this module)
+3        work.datapath.x may have changed because the following files changed:
+                        C:\DL-labosi\labos6\datapath.vhd (2024-01-18 14:13:31, 2024-01-18 14:28:31) <-- (architecture and entity definition)
+5        work.reg_file.x may have changed because the following files changed:
+                        C:\DL-labosi\labos6\datapath.vhd (2024-01-18 14:13:31, 2024-01-18 14:28:31) <-- (may instantiate this module)
+7        work.upravljac.x may have changed because the following files changed:
+                        C:\DL-labosi\labos6\datapath.vhd (2024-01-18 14:13:31, 2024-01-18 14:28:31) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 13
+FID:  path (timestamp)
+0        C:\DL-labosi\labos6\aloo.vhd (2024-01-18 13:46:16)
+2        C:\DL-labosi\labos6\rf_4x4_1w_2r.vhd (2024-01-18 12:10:18)
+3        C:\DL-labosi\labos6\upravljac.vhd (2024-01-18 12:10:18)
+4        C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\xp2.vhd (2018-11-15 01:32:16)
+5        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 10:07:44)
+6        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 10:07:44)
+7        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 17:01:20)
+8        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 10:07:44)
+9        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 10:07:44)
+10       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 10:07:44)
+11       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 10:07:44)
+12       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 10:07:44)
+13       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 10:07:44)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

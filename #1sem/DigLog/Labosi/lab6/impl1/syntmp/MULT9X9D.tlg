@@ -1,0 +1,45 @@
+Selecting top level module MULT9X9D
+@N: CG364 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10823:7:10823:14|Synthesizing module MULT9X9D in library work.
+@W: CG532 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10936:4:10936:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10881:26:10881:40|Object c_sig_reg_async is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10881:43:10881:56|Object c_sig_reg_sync is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10908:8:10908:22|Object input_a_clk_sig is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10909:8:10909:22|Object input_b_clk_sig is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10910:8:10910:22|Object input_c_clk_sig is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10911:8:10911:23|Object pipeline_clk_sig is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10912:8:10912:21|Object output_clk_sig is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10932:9:10932:15|Removing wire PUR_sig, as there is no assignment to it.
+Running optimization stage 1 on MULT9X9D .......
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11651:4:11651:9|Pruning unused register p_sig_o1_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11643:4:11643:9|Pruning unused register p_sig_o1_async[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11615:4:11615:9|Pruning unused register p_sig_o_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11615:4:11615:9|Pruning unused register signedab_sig_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11601:4:11601:9|Pruning unused register p_sig_o_async[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11601:4:11601:9|Pruning unused register signedab_sig_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11420:4:11420:9|Pruning unused register c_sig_sync[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11408:4:11408:9|Pruning unused register c_sig_async[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11394:4:11394:9|Pruning unused register b_sig_reg_sync[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11394:4:11394:9|Pruning unused register signedb_reg1_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11380:4:11380:9|Pruning unused register b_sig_reg_async[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11380:4:11380:9|Pruning unused register signedb_reg1_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11364:4:11364:9|Pruning unused register a_sig_reg_sync[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11364:4:11364:9|Pruning unused register a_sig_gen1_sync[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11364:4:11364:9|Pruning unused register signeda_reg1_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11348:4:11348:9|Pruning unused register a_sig_reg_async[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11348:4:11348:9|Pruning unused register a_sig_gen1_async[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11348:4:11348:9|Pruning unused register signeda_reg1_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11287:4:11287:9|Pruning unused register div2_clk2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":11282:4:11282:9|Pruning unused register div2_clk1. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on MULT9X9D .......
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:6:10840:8|Input CE0 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:10:10840:12|Input CE1 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:14:10840:16|Input CE2 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:18:10840:20|Input CE3 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:22:10840:25|Input CLK0 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:27:10840:30|Input CLK1 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:32:10840:35|Input CLK2 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:37:10840:40|Input CLK3 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:42:10840:45|Input RST0 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:47:10840:50|Input RST1 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:52:10840:55|Input RST2 is unused.
+@N: CL159 :"C:\DL-labosi\lab6\impl1\syntmp\MULT9X9D.v":10840:57:10840:60|Input RST3 is unused.

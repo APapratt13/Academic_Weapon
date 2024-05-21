@@ -1,0 +1,988 @@
+<html><body><samp><pre>
+<!@TC:1705069275>
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: PAPRATT
+
+# Fri Jan 12 15:21:15 2024
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+<a name=compilerReport1></a>Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43</a>
+
+@N: : <!@TM:1705069276> | Running in 64-bit mode 
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+<a name=compilerReport2></a>Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43</a>
+
+@N: : <!@TM:1705069276> | Running in 64-bit mode 
+@N: : <a href="C:\DL-labosi\lab5\morse_toplevel.vhd:5:7:5:16:@N::@XP_MSG">morse_toplevel.vhd(5)</a><!@TM:1705069276> | Top entity is set to morse_top.
+File C:\DL-labosi\lab5\morse.vhd changed - recompiling
+File C:\DL-labosi\lab5\serial_tx.vhd changed - recompiling
+File C:\DL-labosi\lab5\tonegen.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\DL-labosi\lab5\morse.vhd changed - recompiling
+File C:\DL-labosi\lab5\serial_tx.vhd changed - recompiling
+File C:\DL-labosi\lab5\tonegen.vhd changed - recompiling
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\DL-labosi\lab5\morse_toplevel.vhd:5:7:5:16:@N:CD630:@XP_MSG">morse_toplevel.vhd(5)</a><!@TM:1705069276> | Synthesizing work.morse_top.struct.
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\DL-labosi\lab5\tonegen.vhd:7:7:7:14:@N:CD630:@XP_MSG">tonegen.vhd(7)</a><!@TM:1705069276> | Synthesizing work.tonegen.x.
+Post processing for work.tonegen.x
+Running optimization stage 1 on tonegen .......
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\DL-labosi\lab5\serial_tx.vhd:34:7:34:16:@N:CD630:@XP_MSG">serial_tx.vhd(34)</a><!@TM:1705069276> | Synthesizing work.serial_tx.behavioral.
+Post processing for work.serial_tx.behavioral
+Running optimization stage 1 on serial_tx .......
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\DL-labosi\lab5\labos.vhd:5:7:5:12:@N:CD630:@XP_MSG">labos.vhd(5)</a><!@TM:1705069276> | Synthesizing work.morse.mealy.
+@N:<a href="@N:CD604:@XP_HELP">CD604</a> : <a href="C:\DL-labosi\lab5\labos.vhd:99:1:99:15:@N:CD604:@XP_MSG">labos.vhd(99)</a><!@TM:1705069276> | OTHERS clause is not synthesized.
+<font color=#A52A2A>@W:<a href="@W:CG296:@XP_HELP">CG296</a> : <a href="C:\DL-labosi\lab5\labos.vhd:48:4:48:11:@W:CG296:@XP_MSG">labos.vhd(48)</a><!@TM:1705069276> | Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</font>
+<font color=#A52A2A>@W:<a href="@W:CG290:@XP_HELP">CG290</a> : <a href="C:\DL-labosi\lab5\labos.vhd:57:31:57:32:@W:CG290:@XP_MSG">labos.vhd(57)</a><!@TM:1705069276> | Referenced variable r is not in sensitivity list.</font>
+Post processing for work.morse.mealy
+Running optimization stage 1 on morse .......
+Post processing for work.morse_top.struct
+Running optimization stage 1 on morse_top .......
+Running optimization stage 2 on morse .......
+Running optimization stage 2 on serial_tx .......
+Running optimization stage 2 on tonegen .......
+Running optimization stage 2 on morse_top .......
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\DL-labosi\lab5\morse_toplevel.vhd:35:4:35:6:@N:CL189:@XP_MSG">morse_toplevel.vhd(35)</a><!@TM:1705069276> | Register bit R_clk_div(31) is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="C:\DL-labosi\lab5\morse_toplevel.vhd:35:4:35:6:@W:CL260:@XP_MSG">morse_toplevel.vhd(35)</a><!@TM:1705069276> | Pruning register bit 31 of R_clk_div(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+Linked File:  <a href="C:\DL-labosi\lab5\impl1\synwork\layer0.rt.csv:@XP_FILE">layer0.rt.csv</a>
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 84MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 12 15:21:15 2024
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+<a name=compilerReport3></a>Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43</a>
+
+@N: : <!@TM:1705069276> | Running in 64-bit mode 
+File C:\DL-labosi\lab5\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 12 15:21:16 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  <a href="C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_comp.rt.csv:@XP_FILE">labos5_impl1_comp.rt.csv</a>
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 12 15:21:16 2024
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1705069275>
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Database state : C:\DL-labosi\lab5\impl1\synwork\|impl1
+<a name=compilerReport4></a>Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43</a>
+
+@N: : <!@TM:1705069277> | Running in 64-bit mode 
+File C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 12 15:21:17 2024
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1705069275>
+Premap Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1705069275>
+# Fri Jan 12 15:21:17 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1705069278> | No constraint file specified. 
+@N:<a href="@N:MF284:@XP_HELP">MF284</a> : <!@TM:1705069278> | Setting synthesis effort to medium for the design 
+Linked File:  <a href="C:\DL-labosi\lab5\impl1\labos5_impl1_scck.rpt:@XP_FILE">labos5_impl1_scck.rpt</a>
+Printing clock  summary report in "C:\DL-labosi\lab5\impl1\labos5_impl1_scck.rpt" file 
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1705069278> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1705069278> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1705069278> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N:<a href="@N:MF284:@XP_HELP">MF284</a> : <!@TM:1705069278> | Setting synthesis effort to medium for the design 
+<font color=#A52A2A>@W:<a href="@W:FX474:@XP_HELP">FX474</a> : <!@TM:1705069278> | User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </font> 
+@N:<a href="@N:MH105:@XP_HELP">MH105</a> : <!@TM:1705069278> | UMR3 is only supported for HAPS-80. 
+@N:<a href="@N:MH105:@XP_HELP">MH105</a> : <!@TM:1705069278> | UMR3 is only supported for HAPS-80. 
+syn_allowed_resources : blockrams=32  set on top level netlist morse_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+******************
+
+          Start                                      Requested     Requested     Clock                                Clock                   Clock
+Level     Clock                                      Frequency     Period        Type                                 Group                   Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       morse_top|clk_25m                          200.0 MHz     5.000         inferred                             Inferred_clkgroup_0     214  
+1 .         morse_top|R_symbol_clk_derived_clock     200.0 MHz     5.000         derived (from morse_top|clk_25m)     Inferred_clkgroup_0     14   
+===================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                         Clock     Source                      Clock Pin          Non-clock Pin     Non-clock Pin             
+Clock                                    Load      Pin                         Seq Example        Seq Example       Comb Example              
+----------------------------------------------------------------------------------------------------------------------------------------------
+morse_top|clk_25m                        214       clk_25m(port)               R_symbol_clk.C     -                 tonegen.tone_out.I[1](and)
+morse_top|R_symbol_clk_derived_clock     14        R_symbol_clk.Q[0](dffe)     R_led[7:0].C       -                 R_symbol_clk_1.I[0](inv)  
+==============================================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\dl-labosi\lab5\serial_tx.vhd:78:1:78:3:@W:MT529:@XP_MSG">serial_tx.vhd(78)</a><!@TM:1705069278> | Found inferred clock morse_top|clk_25m which controls 214 sequential elements including serializer.R_tx_ser[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+<a name=clockReport7></a>#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 214 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 14 clock pin(s) of sequential element(s)
+0 instances converted, 14 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+<a href="@|L:C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_prem.srm@|S:clk_25m@|E:R_clk_div[30:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0 @XP_NAMES_BY_PROP">ClockId_0_0</a>       clk_25m             Unconstrained_port     214        R_clk_div[30:0]
+=======================================================================================
+============================================================== Gated/Generated Clocks ==============================================================
+Clock Tree ID     Driving Element       Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                               
+----------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|L:C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_prem.srm@|S:R_symbol_clk.Q[0]@|E:R_led[7:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2 @XP_NAMES_BY_PROP">ClockId_0_2</a>       R_symbol_clk.Q[0]     dffe                   14                     R_led[7:0]          Derived clock on input (not legal for GCC)
+====================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1705069278> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 12 15:21:18 2024
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1705069275>
+Map & Optimize Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1705069275>
+# Fri Jan 12 15:21:18 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+<a name=mapperReport8></a>Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF284:@XP_HELP">MF284</a> : <!@TM:1705069288> | Setting synthesis effort to medium for the design 
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1705069288> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1705069288> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1705069288> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N:<a href="@N:MF284:@XP_HELP">MF284</a> : <!@TM:1705069288> | Setting synthesis effort to medium for the design 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:FX493:@XP_HELP">FX493</a> : <!@TM:1705069288> | Applying initial value "111111111" on instance serializer.R_tx_ser[8:0]. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\dl-labosi\lab5\serial_tx.vhd:78:1:78:3:@N:MO231:@XP_MSG">serial_tx.vhd(78)</a><!@TM:1705069288> | Found counter in view:work.serial_tx(behavioral) instance R_tx_tickcnt[3:0] 
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\dl-labosi\lab5\serial_tx.vhd:78:1:78:3:@W:MO129:@XP_MSG">serial_tx.vhd(78)</a><!@TM:1705069288> | Sequential instance serializer.R_byte_old[7] is reduced to a combinational gate by constant propagation.</font>
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\dl-labosi\lab5\serial_tx.vhd:81:8:81:29:@N:MF179:@XP_MSG">serial_tx.vhd(81)</a><!@TM:1705069288> | Found 8 by 8 bit equality operator ('==') un1_byte_in (in view: work.serial_tx(behavioral))
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\dl-labosi\lab5\serial_tx.vhd:78:1:78:3:@W:BN132:@XP_MSG">serial_tx.vhd(78)</a><!@TM:1705069288> | Removing instance serializer.R_byte_old[2] because it is equivalent to instance serializer.R_byte_old[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\dl-labosi\lab5\serial_tx.vhd:78:1:78:3:@N:BN362:@XP_MSG">serial_tx.vhd(78)</a><!@TM:1705069288> | Removing sequential instance serializer.R_byte_old[6] (in view: work.morse_top(struct)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[17] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[16] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[15] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[17] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[16] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[15] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <!@TM:1705069288> | Removing instance tonegen.R_tone_incr_new_dummy[14] because it is equivalent to instance tonegen.R_tone_incr_new_dummy[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font> 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <!@TM:1705069288> | Removing sequential instance tonegen.R_tone_incr_new_dummy[14] (in view: work.morse_top(struct)) because it does not drive other instances. 
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 150MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 150MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.21ns		 166 /       225
+   2		0h:00m:01s		    -2.21ns		 166 /       225
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\dl-labosi\lab5\morse_toplevel.vhd:51:4:51:9:@N:FX271:@XP_MSG">morse_toplevel.vhd(51)</a><!@TM:1705069288> | Replicating instance R_led[2] (in view: work.morse_top(struct)) with 8 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\dl-labosi\lab5\morse_toplevel.vhd:51:4:51:9:@N:FX271:@XP_MSG">morse_toplevel.vhd(51)</a><!@TM:1705069288> | Replicating instance R_led[3] (in view: work.morse_top(struct)) with 8 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\dl-labosi\lab5\labos.vhd:31:1:31:3:@N:FX271:@XP_MSG">labos.vhd(31)</a><!@TM:1705069288> | Replicating instance fsm.R_timer[1] (in view: work.morse_top(struct)) with 7 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\dl-labosi\lab5\labos.vhd:31:1:31:3:@N:FX271:@XP_MSG">labos.vhd(31)</a><!@TM:1705069288> | Replicating instance fsm.R_timer[2] (in view: work.morse_top(struct)) with 7 loads 1 time to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   3		0h:00m:01s		    -2.03ns		 168 /       229
+
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\dl-labosi\lab5\morse_toplevel.vhd:51:4:51:9:@N:FX271:@XP_MSG">morse_toplevel.vhd(51)</a><!@TM:1705069288> | Replicating instance R_led[1] (in view: work.morse_top(struct)) with 13 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\dl-labosi\lab5\morse_toplevel.vhd:51:4:51:9:@N:FX271:@XP_MSG">morse_toplevel.vhd(51)</a><!@TM:1705069288> | Replicating instance R_led[0] (in view: work.morse_top(struct)) with 11 loads 2 times to improve timing.
+Added 4 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   4		0h:00m:01s		    -2.04ns		 173 /       233
+   5		0h:00m:01s		    -1.83ns		 174 /       233
+   6		0h:00m:01s		    -1.83ns		 176 /       233
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1705069288> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 150MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 150MB)
+
+Writing Analyst data base C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:03s; Memory used current: 150MB peak: 152MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1705069288> | Writing EDF file: C:\DL-labosi\lab5\impl1\labos5_impl1.edi 
+N-2018.03L-SP1-1
+@N:<a href="@N:BW106:@XP_HELP">BW106</a> : <!@TM:1705069288> | Synplicity Constraint File capacitance units using default value of 1pF  
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 156MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 150MB peak: 156MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1705069288> | Found inferred clock morse_top|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.</font> 
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1705069288> | Found clock morse_top|R_symbol_clk_derived_clock with period 5.00ns  
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+<a name=10></a># Timing Report written on Fri Jan 12 15:21:28 2024</a>
+#
+
+
+Top view:               morse_top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1705069288> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1705069288> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary11></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -2.164
+
+@N:<a href="@N:MT286:@XP_HELP">MT286</a> : <!@TM:1705069288> | System clock period 0.000 stretches to negative invalid value -- ignoring stretching. 
+                                         Requested     Estimated     Requested     Estimated                Clock                                Clock              
+Starting Clock                           Frequency     Frequency     Period        Period        Slack      Type                                 Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+morse_top|R_symbol_clk_derived_clock     200.0 MHz     107.2 MHz     5.000         9.328         -2.164     derived (from morse_top|clk_25m)     Inferred_clkgroup_0
+morse_top|clk_25m                        200.0 MHz     107.2 MHz     5.000         9.328         0.180      inferred                             Inferred_clkgroup_0
+System                                   200.0 MHz     928.5 MHz     5.000         1.077         3.923      system                               system_clkgroup    
+====================================================================================================================================================================
+
+
+
+
+
+<a name=clockRelationships12></a>Clock Relationships</a>
+*******************
+
+Clocks                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                              Ending                                |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                System                                |  5.000       5.000  |  No paths    -      |  No paths    -      |  No paths    -     
+System                                morse_top|clk_25m                     |  5.000       3.923  |  No paths    -      |  No paths    -      |  No paths    -     
+morse_top|clk_25m                     System                                |  5.000       3.991  |  No paths    -      |  No paths    -      |  No paths    -     
+morse_top|clk_25m                     morse_top|clk_25m                     |  5.000       0.180  |  No paths    -      |  No paths    -      |  No paths    -     
+morse_top|R_symbol_clk_derived_clock  morse_top|clk_25m                     |  No paths    -      |  No paths    -      |  No paths    -      |  2.500       -2.164
+morse_top|R_symbol_clk_derived_clock  morse_top|R_symbol_clk_derived_clock  |  No paths    -      |  5.000       5.909  |  No paths    -      |  No paths    -     
+===================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo13></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport14></a>Detailed Report for Clock: morse_top|R_symbol_clk_derived_clock</a>
+====================================
+
+
+
+<a name=startingSlack15></a>Starting Points with Worst Slack</a>
+********************************
+
+                        Starting                                                                         Arrival           
+Instance                Reference                                Type        Pin     Net                 Time        Slack 
+                        Clock                                                                                              
+---------------------------------------------------------------------------------------------------------------------------
+R_led_fast[2]           morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       R_led_fast[2]       0.907       -2.164
+R_led_fast[3]           morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       R_led_fast[3]       0.907       -2.164
+R_led[2]                morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       led_c[2]            1.045       -1.828
+fsm.R_timer_fast[1]     morse_top|R_symbol_clk_derived_clock     FD1S3IX     Q       R_timer_fast[1]     0.907       -1.811
+fsm.R_timer_fast[2]     morse_top|R_symbol_clk_derived_clock     FD1S3IX     Q       R_timer_fast[2]     0.907       -1.811
+R_led[3]                morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       led_c[3]            1.027       -1.810
+R_led_0_rep1            morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       led_c_0_rep1        1.039       -1.798
+R_led[4]                morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       led_c[4]            1.015       -1.774
+R_led_1_rep1            morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       led_c_1_rep1        1.015       -1.774
+R_led[1]                morse_top|R_symbol_clk_derived_clock     FD1S3AX     Q       led_c[1]            1.045       -1.696
+===========================================================================================================================
+
+
+<a name=endingSlack16></a>Ending Points with Worst Slack</a>
+******************************
+
+                                 Starting                                                                                     Required           
+Instance                         Reference                                Type        Pin     Net                             Time         Slack 
+                                 Clock                                                                                                           
+-------------------------------------------------------------------------------------------------------------------------------------------------
+serializer.R_debounce_cnt[0]     morse_top|R_symbol_clk_derived_clock     FD1S3IX     CD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[1]     morse_top|R_symbol_clk_derived_clock     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[2]     morse_top|R_symbol_clk_derived_clock     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[3]     morse_top|R_symbol_clk_derived_clock     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[4]     morse_top|R_symbol_clk_derived_clock     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[5]     morse_top|R_symbol_clk_derived_clock     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[6]     morse_top|R_symbol_clk_derived_clock     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[7]     morse_top|R_symbol_clk_derived_clock     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[8]     morse_top|R_symbol_clk_derived_clock     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+serializer.R_debounce_cnt[9]     morse_top|R_symbol_clk_derived_clock     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     2.419        -2.164
+=================================================================================================================================================
+
+
+
+<a name=worstPaths17></a>Worst Path Information</a>
+<a href="C:\DL-labosi\lab5\impl1\labos5_impl1.srr:srsfC:\DL-labosi\lab5\impl1\labos5_impl1.srs:fp:32135:34025:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.500
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.419
+
+    - Propagation time:                      4.583
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.164
+
+    Number of logic level(s):                5
+    Starting point:                          R_led_fast[2] / Q
+    Ending point:                            serializer.R_debounce_cnt[0] / CD
+    The start point is clocked by            morse_top|R_symbol_clk_derived_clock [falling] on pin CK
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+R_led_fast[2]                            FD1S3AX      Q        Out     0.907     0.907       -         
+R_led_fast[2]                            Net          -        -       -         -           2         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     A        In      0.000     0.907       -         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     Z        Out     0.606     1.513       -         
+un1_byte_in_0_I_9_0_RNO_3                Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     D        In      0.000     1.513       -         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     Z        Out     0.606     2.119       -         
+g0_1                                     Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     C        In      0.000     2.119       -         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     Z        Out     0.606     2.725       -         
+un1_byte_in_0_N_9                        Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0           CCU2C        A1       In      0.000     2.725       -         
+serializer.un1_byte_in_0_I_9_0           CCU2C        COUT     Out     0.900     3.625       -         
+un1_byte_in_0_I_15_cry                   Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_15_0          CCU2C        CIN      In      0.000     3.625       -         
+serializer.un1_byte_in_0_I_15_0          CCU2C        S0       Out     0.958     4.583       -         
+un1_byte_in_0_data_tmp_i[2]              Net          -        -       -         -           32        
+serializer.R_debounce_cnt[0]             FD1S3IX      CD       In      0.000     4.583       -         
+=======================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      2.500
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.419
+
+    - Propagation time:                      4.583
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.164
+
+    Number of logic level(s):                5
+    Starting point:                          R_led_fast[3] / Q
+    Ending point:                            serializer.R_debounce_cnt[0] / CD
+    The start point is clocked by            morse_top|R_symbol_clk_derived_clock [falling] on pin CK
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+R_led_fast[3]                            FD1S3AX      Q        Out     0.907     0.907       -         
+R_led_fast[3]                            Net          -        -       -         -           2         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     B        In      0.000     0.907       -         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     Z        Out     0.606     1.513       -         
+un1_byte_in_0_I_9_0_RNO_3                Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     D        In      0.000     1.513       -         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     Z        Out     0.606     2.119       -         
+g0_1                                     Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     C        In      0.000     2.119       -         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     Z        Out     0.606     2.725       -         
+un1_byte_in_0_N_9                        Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0           CCU2C        A1       In      0.000     2.725       -         
+serializer.un1_byte_in_0_I_9_0           CCU2C        COUT     Out     0.900     3.625       -         
+un1_byte_in_0_I_15_cry                   Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_15_0          CCU2C        CIN      In      0.000     3.625       -         
+serializer.un1_byte_in_0_I_15_0          CCU2C        S0       Out     0.958     4.583       -         
+un1_byte_in_0_data_tmp_i[2]              Net          -        -       -         -           32        
+serializer.R_debounce_cnt[0]             FD1S3IX      CD       In      0.000     4.583       -         
+=======================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      2.500
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.419
+
+    - Propagation time:                      4.583
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.164
+
+    Number of logic level(s):                5
+    Starting point:                          R_led_fast[2] / Q
+    Ending point:                            serializer.R_debounce_cnt[31] / CD
+    The start point is clocked by            morse_top|R_symbol_clk_derived_clock [falling] on pin CK
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+R_led_fast[2]                            FD1S3AX      Q        Out     0.907     0.907       -         
+R_led_fast[2]                            Net          -        -       -         -           2         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     A        In      0.000     0.907       -         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     Z        Out     0.606     1.513       -         
+un1_byte_in_0_I_9_0_RNO_3                Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     D        In      0.000     1.513       -         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     Z        Out     0.606     2.119       -         
+g0_1                                     Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     C        In      0.000     2.119       -         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     Z        Out     0.606     2.725       -         
+un1_byte_in_0_N_9                        Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0           CCU2C        A1       In      0.000     2.725       -         
+serializer.un1_byte_in_0_I_9_0           CCU2C        COUT     Out     0.900     3.625       -         
+un1_byte_in_0_I_15_cry                   Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_15_0          CCU2C        CIN      In      0.000     3.625       -         
+serializer.un1_byte_in_0_I_15_0          CCU2C        S0       Out     0.958     4.583       -         
+un1_byte_in_0_data_tmp_i[2]              Net          -        -       -         -           32        
+serializer.R_debounce_cnt[31]            FD1P3IX      CD       In      0.000     4.583       -         
+=======================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      2.500
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.419
+
+    - Propagation time:                      4.583
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.164
+
+    Number of logic level(s):                5
+    Starting point:                          R_led_fast[2] / Q
+    Ending point:                            serializer.R_debounce_cnt[30] / CD
+    The start point is clocked by            morse_top|R_symbol_clk_derived_clock [falling] on pin CK
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+R_led_fast[2]                            FD1S3AX      Q        Out     0.907     0.907       -         
+R_led_fast[2]                            Net          -        -       -         -           2         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     A        In      0.000     0.907       -         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     Z        Out     0.606     1.513       -         
+un1_byte_in_0_I_9_0_RNO_3                Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     D        In      0.000     1.513       -         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     Z        Out     0.606     2.119       -         
+g0_1                                     Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     C        In      0.000     2.119       -         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     Z        Out     0.606     2.725       -         
+un1_byte_in_0_N_9                        Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0           CCU2C        A1       In      0.000     2.725       -         
+serializer.un1_byte_in_0_I_9_0           CCU2C        COUT     Out     0.900     3.625       -         
+un1_byte_in_0_I_15_cry                   Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_15_0          CCU2C        CIN      In      0.000     3.625       -         
+serializer.un1_byte_in_0_I_15_0          CCU2C        S0       Out     0.958     4.583       -         
+un1_byte_in_0_data_tmp_i[2]              Net          -        -       -         -           32        
+serializer.R_debounce_cnt[30]            FD1P3IX      CD       In      0.000     4.583       -         
+=======================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      2.500
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.419
+
+    - Propagation time:                      4.583
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.164
+
+    Number of logic level(s):                5
+    Starting point:                          R_led_fast[2] / Q
+    Ending point:                            serializer.R_debounce_cnt[29] / CD
+    The start point is clocked by            morse_top|R_symbol_clk_derived_clock [falling] on pin CK
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+R_led_fast[2]                            FD1S3AX      Q        Out     0.907     0.907       -         
+R_led_fast[2]                            Net          -        -       -         -           2         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     A        In      0.000     0.907       -         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     Z        Out     0.606     1.513       -         
+un1_byte_in_0_I_9_0_RNO_3                Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     D        In      0.000     1.513       -         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     Z        Out     0.606     2.119       -         
+g0_1                                     Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     C        In      0.000     2.119       -         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     Z        Out     0.606     2.725       -         
+un1_byte_in_0_N_9                        Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0           CCU2C        A1       In      0.000     2.725       -         
+serializer.un1_byte_in_0_I_9_0           CCU2C        COUT     Out     0.900     3.625       -         
+un1_byte_in_0_I_15_cry                   Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_15_0          CCU2C        CIN      In      0.000     3.625       -         
+serializer.un1_byte_in_0_I_15_0          CCU2C        S0       Out     0.958     4.583       -         
+un1_byte_in_0_data_tmp_i[2]              Net          -        -       -         -           32        
+serializer.R_debounce_cnt[29]            FD1P3IX      CD       In      0.000     4.583       -         
+=======================================================================================================
+
+
+
+
+====================================
+<a name=clockReport18></a>Detailed Report for Clock: morse_top|clk_25m</a>
+====================================
+
+
+
+<a name=startingSlack19></a>Starting Points with Worst Slack</a>
+********************************
+
+                                  Starting                                                         Arrival          
+Instance                          Reference             Type        Pin     Net                    Time        Slack
+                                  Clock                                                                             
+--------------------------------------------------------------------------------------------------------------------
+R_symbol_clk                      morse_top|clk_25m     FD1S3AX     Q       R_symbol_clk_i         1.063       0.180
+tonegen.R_code[4]                 morse_top|clk_25m     FD1S3JX     Q       R_code[4]              0.955       0.457
+tonegen.R_code[5]                 morse_top|clk_25m     FD1S3JX     Q       R_code[5]              0.955       0.457
+tonegen.R_code[6]                 morse_top|clk_25m     FD1S3JX     Q       R_code[6]              0.955       0.457
+tonegen.R_code[2]                 morse_top|clk_25m     FD1S3JX     Q       R_code[2]              0.985       0.559
+tonegen.R_code[3]                 morse_top|clk_25m     FD1S3JX     Q       R_code[3]              0.985       0.559
+serializer.R_tx_phase[0]          morse_top|clk_25m     FD1S3IX     Q       R_tx_phase[0]          1.009       0.667
+serializer.R_tx_phase[3]          morse_top|clk_25m     FD1S3IX     Q       R_tx_phase[3]          0.955       0.721
+serializer.R_byte_old[4]          morse_top|clk_25m     FD1S3AX     Q       R_byte_old[4]          0.985       0.864
+serializer.R_debounce_cnt[10]     morse_top|clk_25m     FD1P3IX     Q       R_debounce_cnt[10]     0.907       0.937
+====================================================================================================================
+
+
+<a name=endingSlack20></a>Ending Points with Worst Slack</a>
+******************************
+
+                                 Starting                                                                  Required          
+Instance                         Reference             Type        Pin     Net                             Time         Slack
+                                 Clock                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------
+serializer.R_debounce_cnt[0]     morse_top|clk_25m     FD1S3IX     CD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[1]     morse_top|clk_25m     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[2]     morse_top|clk_25m     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[3]     morse_top|clk_25m     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[4]     morse_top|clk_25m     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[5]     morse_top|clk_25m     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[6]     morse_top|clk_25m     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[7]     morse_top|clk_25m     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[8]     morse_top|clk_25m     FD1P3IX     CD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+serializer.R_debounce_cnt[9]     morse_top|clk_25m     FD1P3JX     PD      un1_byte_in_0_data_tmp_i[2]     4.919        0.180
+=============================================================================================================================
+
+
+
+<a name=worstPaths21></a>Worst Path Information</a>
+<a href="C:\DL-labosi\lab5\impl1\labos5_impl1.srr:srsfC:\DL-labosi\lab5\impl1\labos5_impl1.srs:fp:51707:53597:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.919
+
+    - Propagation time:                      4.739
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.180
+
+    Number of logic level(s):                5
+    Starting point:                          R_symbol_clk / Q
+    Ending point:                            serializer.R_debounce_cnt[0] / CD
+    The start point is clocked by            morse_top|clk_25m [rising] on pin CK
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+R_symbol_clk                             FD1S3AX      Q        Out     1.063     1.063       -         
+R_symbol_clk_i                           Net          -        -       -         -           13        
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     C        In      0.000     1.063       -         
+serializer.un1_byte_in_0_I_9_0_RNO_3     ORCALUT4     Z        Out     0.606     1.669       -         
+un1_byte_in_0_I_9_0_RNO_3                Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     D        In      0.000     1.669       -         
+serializer.un1_byte_in_0_I_9_0_RNO_2     ORCALUT4     Z        Out     0.606     2.275       -         
+g0_1                                     Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     C        In      0.000     2.275       -         
+serializer.un1_byte_in_0_I_9_0_RNO       ORCALUT4     Z        Out     0.606     2.881       -         
+un1_byte_in_0_N_9                        Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_9_0           CCU2C        A1       In      0.000     2.881       -         
+serializer.un1_byte_in_0_I_9_0           CCU2C        COUT     Out     0.900     3.781       -         
+un1_byte_in_0_I_15_cry                   Net          -        -       -         -           1         
+serializer.un1_byte_in_0_I_15_0          CCU2C        CIN      In      0.000     3.781       -         
+serializer.un1_byte_in_0_I_15_0          CCU2C        S0       Out     0.958     4.739       -         
+un1_byte_in_0_data_tmp_i[2]              Net          -        -       -         -           32        
+serializer.R_debounce_cnt[0]             FD1S3IX      CD       In      0.000     4.739       -         
+=======================================================================================================
+
+
+
+
+====================================
+<a name=clockReport22></a>Detailed Report for Clock: System</a>
+====================================
+
+
+
+<a name=startingSlack23></a>Starting Points with Worst Slack</a>
+********************************
+
+                             Starting                                       Arrival          
+Instance                     Reference     Type       Pin     Net           Time        Slack
+                             Clock                                                           
+---------------------------------------------------------------------------------------------
+tonegen.mul64_add[18:71]     System        ALU54B     R30     mul64[51]     0.000       3.923
+tonegen.mul64_add[18:71]     System        ALU54B     R11     mul64[32]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R12     mul64[33]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R13     mul64[34]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R14     mul64[35]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R15     mul64[36]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R16     mul64[37]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R17     mul64[38]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R18     mul64[39]     0.000       4.556
+tonegen.mul64_add[18:71]     System        ALU54B     R19     mul64[40]     0.000       4.556
+=============================================================================================
+
+
+<a name=endingSlack24></a>Ending Points with Worst Slack</a>
+******************************
+
+                                Starting                                   Required          
+Instance                        Reference     Type        Pin     Net      Time         Slack
+                                Clock                                                        
+---------------------------------------------------------------------------------------------
+tonegen.R_tone_incr_new[19]     System        FD1S3JX     PD      fb       4.919        3.923
+tonegen.R_tone_incr_new[0]      System        FD1P3IX     D       N_12     4.946        4.556
+tonegen.R_tone_incr_new[1]      System        FD1P3IX     D       N_13     4.946        4.556
+tonegen.R_tone_incr_new[2]      System        FD1P3IX     D       N_14     4.946        4.556
+tonegen.R_tone_incr_new[3]      System        FD1P3IX     D       N_15     4.946        4.556
+tonegen.R_tone_incr_new[4]      System        FD1P3IX     D       N_16     4.946        4.556
+tonegen.R_tone_incr_new[5]      System        FD1P3IX     D       N_18     4.946        4.556
+tonegen.R_tone_incr_new[6]      System        FD1P3IX     D       N_19     4.946        4.556
+tonegen.R_tone_incr_new[7]      System        FD1P3IX     D       N_20     4.946        4.556
+tonegen.R_tone_incr_new[8]      System        FD1P3IX     D       N_21     4.946        4.556
+=============================================================================================
+
+
+
+<a name=worstPaths25></a>Worst Path Information</a>
+<a href="C:\DL-labosi\lab5\impl1\labos5_impl1.srr:srsfC:\DL-labosi\lab5\impl1\labos5_impl1.srs:fp:58011:58938:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.919
+
+    - Propagation time:                      0.996
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 3.923
+
+    Number of logic level(s):                2
+    Starting point:                          tonegen.mul64_add[18:71] / R30
+    Ending point:                            tonegen.R_tone_incr_new[19] / PD
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            morse_top|clk_25m [rising] on pin CK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+tonegen.mul64_add[18:71]               ALU54B       R30      Out     0.000     0.000       -         
+mul64[51]                              Net          -        -       -         -           1         
+tonegen.R_tone_incr_new_5_1_m3[19]     ORCALUT4     C        In      0.000     0.000       -         
+tonegen.R_tone_incr_new_5_1_m3[19]     ORCALUT4     Z        Out     0.606     0.606       -         
+N_49                                   Net          -        -       -         -           1         
+tonegen.R_tone_incr_new_19_.fb         ORCALUT4     B        In      0.000     0.606       -         
+tonegen.R_tone_incr_new_19_.fb         ORCALUT4     Z        Out     0.390     0.996       -         
+fb                                     Net          -        -       -         -           1         
+tonegen.R_tone_incr_new[19]            FD1S3JX      PD       In      0.000     0.996       -         
+=====================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 151MB peak: 156MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 151MB peak: 156MB)
+
+---------------------------------------
+<a name=resourceUsage26></a>Resource Usage Report</a>
+Part: lfe5u_12f-6
+
+Register bits: 233 of 12096 (2%)
+PIC Latch:       0
+I/O cells:       25
+
+DSP primitives:       6 of 24 (25%)
+
+Details:
+ALU54B:         2
+CCU2C:          66
+FD1P3AX:        22
+FD1P3AY:        8
+FD1P3IX:        67
+FD1P3JX:        8
+FD1S3AX:        96
+FD1S3IX:        22
+FD1S3JX:        8
+GSR:            1
+IB:             8
+INV:            3
+MULT18X18D:     4
+OB:             17
+OFS1P3BX:       1
+OFS1P3DX:       1
+ORCALUT4:       174
+PFUMX:          1
+PUR:            1
+VHI:            4
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 34MB peak: 156MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:03s cputime
+# Fri Jan 12 15:21:28 2024
+
+###########################################################]
+
+</pre></samp></body></html>

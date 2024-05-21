@@ -1,0 +1,21 @@
+@P:  Worst Slack : -0.337
+@P:  datapath|clk_25m - Estimated Frequency : 187.4 MHz
+@P:  datapath|clk_25m - Requested Frequency : 200.0 MHz
+@P:  datapath|clk_25m - Estimated Period : 5.337
+@P:  datapath|clk_25m - Requested Period : 5.000
+@P:  datapath|clk_25m - Slack : -0.337
+@P:  upravljac|R_keys_last_derived_clock[3] - Estimated Frequency : 187.4 MHz
+@P:  upravljac|R_keys_last_derived_clock[3] - Requested Frequency : 200.0 MHz
+@P:  upravljac|R_keys_last_derived_clock[3] - Estimated Period : 5.337
+@P:  upravljac|R_keys_last_derived_clock[3] - Requested Period : 5.000
+@P:  upravljac|R_keys_last_derived_clock[3] - Slack : 4.831
+@P:  System - Estimated Frequency : 415.5 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 2.407
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 2.593
+@P:  Total Area : 94.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:01s

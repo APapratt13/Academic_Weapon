@@ -1,0 +1,43 @@
+---------------------------------------------------
+Report for cell morse_top
+   Instance path: morse_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     180.00        100.0
+                                 IOLGC	       2.00        100.0
+                                  LUT4	     175.00        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	         25        100.0
+                                PFUREG	        231        100.0
+                                RIPPLE	         66        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               tonegen	          1        38.1
+                             serial_tx	          1        33.1
+                                 morse	          1         7.2
+---------------------------------------------------
+Report for cell tonegen
+   Instance path: morse_top/tonegen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      68.50        38.1
+                                  LUT4	      57.00        32.6
+                                PFUREG	        108        46.8
+                                RIPPLE	         21        31.8
+---------------------------------------------------
+Report for cell serial_tx
+   Instance path: morse_top/serializer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      59.50        33.1
+                                  LUT4	      59.00        33.7
+                                PFUREG	         70        30.3
+                                RIPPLE	         29        43.9
+---------------------------------------------------
+Report for cell morse
+   Instance path: morse_top/fsm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.00         7.2
+                                  LUT4	      27.00        15.4
+                                PFUREG	          8         3.5

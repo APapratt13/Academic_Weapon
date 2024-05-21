@@ -1,0 +1,41 @@
+---------------------------------------------------
+Report for cell datapath
+   Instance path: datapath
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      75.00        100.0
+                                 IOLGC	       3.00        100.0
+                                  LUT4	      94.00        100.0
+                                 IOREG	          3        100.0
+                                 IOBUF	         18        100.0
+                                PFUREG	         57        100.0
+                                RIPPLE	         17        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             upravljac	          1        47.3
+                              reg_file	          1        23.3
+                                   alu	          1        29.3
+---------------------------------------------------
+Report for cell upravljac
+   Instance path: datapath/I_upravljac
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.50        47.3
+                                  LUT4	      28.00        29.8
+                                PFUREG	         41        71.9
+                                RIPPLE	         17        100.0
+---------------------------------------------------
+Report for cell reg_file
+   Instance path: datapath/I_regfile
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.50        23.3
+                                  LUT4	      20.00        21.3
+                                PFUREG	         16        28.1
+---------------------------------------------------
+Report for cell alu
+   Instance path: datapath/I_alu
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        29.3
+                                  LUT4	      46.00        48.9

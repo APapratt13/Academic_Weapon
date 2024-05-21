@@ -1,0 +1,112 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\DL-labosi\lab6\datapath.vhd":7:7:7:14|Top entity is set to datapath.
+File C:\DL-labosi\lab6\datapath.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\DL-labosi\lab6\datapath.vhd changed - recompiling
+@N: CD630 :"C:\DL-labosi\lab6\datapath.vhd":7:7:7:14|Synthesizing work.datapath.x.
+@W: CD638 :"C:\DL-labosi\lab6\datapath.vhd":20:25:20:29|Signal addrw is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\DL-labosi\lab6\datapath.vhd":24:17:24:17|Signal z is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\DL-labosi\lab6\upravljac.vhd":7:7:7:15|Synthesizing work.upravljac.x.
+Post processing for work.upravljac.x
+Running optimization stage 1 on upravljac .......
+@N: CD630 :"C:\DL-labosi\lab6\rf_4x4_1w_2r.vhd":7:7:7:14|Synthesizing work.reg_file.x.
+Post processing for work.reg_file.x
+Running optimization stage 1 on reg_file .......
+@N: CD630 :"C:\DL-labosi\lab6\aloo.vhd":6:7:6:9|Synthesizing work.alu.arch.
+Post processing for work.alu.arch
+Running optimization stage 1 on alu .......
+Post processing for work.datapath.x
+Running optimization stage 1 on datapath .......
+Running optimization stage 2 on alu .......
+Running optimization stage 2 on reg_file .......
+Running optimization stage 2 on upravljac .......
+Running optimization stage 2 on datapath .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\DL-labosi\lab6\impl1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 77MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 19 10:11:19 2024
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\DL-labosi\lab6\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 19 10:11:19 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\DL-labosi\lab6\impl1\synwork\plac6_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 19 10:11:19 2024
+
+###########################################################]

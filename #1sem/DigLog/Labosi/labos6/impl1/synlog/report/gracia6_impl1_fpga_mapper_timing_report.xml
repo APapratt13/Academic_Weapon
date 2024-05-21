@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\DL-labosi\labos6\impl1\synlog\gracia6_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>datapath|clk_25m</data>
+<data>200.0 MHz</data>
+<data>150.1 MHz</data>
+<data>-1.662</data>
+</row>
+<row>
+<data>upravljac|R_keys_last_derived_clock[3]</data>
+<data>200.0 MHz</data>
+<data>150.1 MHz</data>
+<data>3.511</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>307.5 MHz</data>
+<data>1.748</data>
+</row>
+</report_table>

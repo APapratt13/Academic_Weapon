@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  datapath  -multisrs  C:\DL-labosi\labos6\impl1\synwork\gracia6_impl1_comp.srs  -osyn  C:\DL-labosi\labos6\impl1\synwork\gracia6_impl1_mult.srs  -log  C:\DL-labosi\labos6\impl1\synlog\gracia6_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top datapath -multisrs ..\synwork\gracia6_impl1_comp.srs -osyn ..\synwork\gracia6_impl1_mult.srs -log ..\synlog\gracia6_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\gracia6_impl1_comp.srs|io:i|time:1705584525|size:7023|exec:0|csum:F4FACDDE973233C8F95B1F21B30D1485
+file:..\synwork\gracia6_impl1_mult.srs|io:o|time:1705584526|size:3210|exec:0|csum:
+file:..\synlog\gracia6_impl1_multi_srs_gen.srr|io:o|time:1705584526|size:1091|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554106952|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

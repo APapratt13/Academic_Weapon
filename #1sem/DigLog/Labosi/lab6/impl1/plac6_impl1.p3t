@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "plac6_impl1.log"
+-o "plac6_impl1.csv"
+-pr "plac6_impl1.prf"

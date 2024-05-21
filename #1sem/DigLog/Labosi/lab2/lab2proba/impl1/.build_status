@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Convert_HDL" build_result="2" build_time="1699616537">
+            <Task name="HDL_Conv" build_result="2" update_result="0" update_time="1699616537"/>
+        </Milestone>
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Promgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Generate_HDL" build_result="2" build_time="1699616537">
+            <Task name="HDL_Gen" build_result="2" update_result="0" update_time="1699616537"/>
+        </Milestone>
+        <Milestone name="Map" build_result="1" build_time="1699616547">
+            <Task name="Map" build_result="1" update_result="2" update_time="1699616547"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="0">
+            <Task name="PAR" build_result="0" update_result="3" update_time="0"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1699616547">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1699616547"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1699616130"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="2" build_time="1699616547">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1699616547"/>
+        </Milestone>
+        <Report name="" last_build_time="1699616146" last_build_size="0"/>
+        <Report name="lab2.v" last_build_time="1699616537" last_build_size="1767"/>
+        <Report name="pokusaj_impl1.edi" last_build_time="1699616545" last_build_size="142117"/>
+        <Report name="pokusaj_impl1.ngd" last_build_time="1699616547" last_build_size="130167"/>
+        <Report name="pokusaj_impl1_map.ncd" last_build_time="0" last_build_size="0"/>
+    </Strategy>
+</BuildStatus>

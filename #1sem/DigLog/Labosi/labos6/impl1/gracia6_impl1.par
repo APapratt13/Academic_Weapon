@@ -1,0 +1,266 @@
+PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Thu Jan 18 14:28:56 2024
+
+C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f gracia6_impl1.p2t
+gracia6_impl1_map.ncd gracia6_impl1.dir gracia6_impl1.prf -gui
+
+
+Preference file: gracia6_impl1.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            23.345       0            0.008        0            23           Completed
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 23 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Lattice Place and Route Report for Design "gracia6_impl1_map.ncd"
+Thu Jan 18 14:28:56 2024
+
+PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF gracia6_impl1_map.ncd gracia6_impl1.dir/5_1.ncd gracia6_impl1.prf
+Preference file: gracia6_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file gracia6_impl1_map.ncd.
+Design name: datapath
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-8E
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'mg5a33x38.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.47.
+Performance Hardware Data Status:   Final          Version 11.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   IOLOGIC            3/260           1% used
+   PIO (prelim)      18/238           7% used
+                     18/100          18% bonded
+   MULT9              1/32            3% used
+   SLICE             85/4176          2% used
+
+
+
+Number of Signals: 206
+Number of Connections: 562
+
+Pin Constraint Summary:
+   18 out of 18 pins locked (100% locked).
+
+
+The following 2 signals are selected to use the primary clock routing resources:
+    clk_25m_c (driver: clk_25m, clk load #: 28)
+    Clk (driver: I_upravljac/SLICE_55, clk load #: 10)
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 3 secs 
+
+
+Starting Placer Phase 1.
+....................
+Placer score = 37071.
+Finished Placer Phase 1.  REAL time: 13 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  36819
+Finished Placer Phase 2.  REAL time: 13 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 260 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Global Clocks:
+  PRIMARY "clk_25m_c" from comp "clk_25m" on PIO site "30 (PL18B)", clk load = 28
+  PRIMARY "Clk" from Q0 on comp "I_upravljac/SLICE_55" on site "R14C2C", clk load = 10
+
+  PRIMARY  : 2 out of 8 (25%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   18 out of 238 (7.6%) PIO sites used.
+   18 out of 100 (18.0%) bonded PIO sites used.
+   Number of PIO comps: 18; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 4 / 20 ( 20%) | 3.3V       | -          | -          |
+| 1        | 0 / 6 (  0%)  | -          | -          | -          |
+| 2        | 0 / 18 (  0%) | -          | -          | -          |
+| 3        | 0 / 4 (  0%)  | -          | -          | -          |
+| 4        | 0 / 8 (  0%)  | -          | -          | -          |
+| 5        | 4 / 18 ( 22%) | 3.3V       | -          | -          |
+| 6        | 4 / 8 ( 50%)  | 3.3V       | -          | -          |
+| 7        | 6 / 18 ( 33%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3 4
+# of MULT36X36B                  
+# of MULT18X18B                  
+# of MULT18X18MACB               
+# of MULT18X18ADDSUBB            
+# of MULT18X18ADDSUBSUMB         
+# of MULT9X9B             1      
+# of MULT9X9ADDSUBB              
+# of MULT9X9ADDSUBSUMB           
+
+DSP Block  1    Component_Type       Physical_Type        Instance_Name     
+   R26C5           MULT9X9B              MULT9           I_alu/mull[3:0]    
+
+Total placer CPU time: 5 secs 
+
+Dumping design to file gracia6_impl1.dir/5_1.ncd.
+
+0 connections routed; 562 unrouted.
+Starting router resource preassignment
+WARNING - par: The driver of primary clock net clk_25m_c is not placed on one of the PIO sites dedicated for primary clocks.  This primary clock will be routed to a H-spine through general routing resource and may suffer from excessive delay or skew.
+
+Completed router resource preassignment. Real time: 15 secs 
+
+Start NBR router at 14:29:11 01/18/24
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 14:29:11 01/18/24
+
+Start NBR section for initial routing at 14:29:11 01/18/24
+Level 4, iteration 1
+15(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 24.262ns/0.000ns; real time: 16 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 14:29:12 01/18/24
+Level 4, iteration 1
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 23.345ns/0.000ns; real time: 16 secs 
+Level 4, iteration 2
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 23.345ns/0.000ns; real time: 16 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 23.345ns/0.000ns; real time: 16 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:29:12 01/18/24
+Level 4, iteration 0
+Level 4, iteration 1
+1(0.00%) conflict; 4(0.71%) untouched conns; 122 (nbr) score; 
+Estimated worst slack/total negative slack<hold >: -0.026ns/-0.123ns; real time: 20 secs 
+Level 4, iteration 2
+0(0.00%) conflict; 4(0.71%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<hold >: 0.003ns/0.000ns; real time: 20 secs 
+Level 4, iteration 0
+0(0.00%) conflict; 4(0.71%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 23.325ns/0.000ns; real time: 21 secs 
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 23.325ns/0.000ns; real time: 21 secs 
+
+Start NBR section for re-routing at 14:29:17 01/18/24
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 23.345ns/0.000ns; real time: 21 secs 
+
+Start NBR section for post-routing at 14:29:17 01/18/24
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 23.345ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 9 secs 
+Total REAL time: 23 secs 
+Completely routed.
+End of route.  562 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file gracia6_impl1.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 23.345
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.008
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 9 secs 
+Total REAL time to completion: 23 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.

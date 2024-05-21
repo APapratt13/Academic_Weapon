@@ -1,0 +1,26 @@
+i clk_25m
+m 0 0
+u 5 43
+p {p:clk_25m}{t:I_upravljac.clk_25m}{p:I_upravljac.clk_25m}{t:I_upravljac.R_debounce_cnt[31:0].C}
+e ckid0_0 {t:I_upravljac.R_debounce_cnt[31:0].C} sdffpatr
+c ckid0_0 {p:clk_25m} Unconstrained_port Inferred clock from port
+i I_upravljac.R_keys_last_i[3]
+m 0 0
+u 4 16
+n ckid0_1 {t:I_regfile.R3[3:0].C} Derived clock on input (not legal for GCC)
+p {t:I_upravljac.R_keys_last[3:0].Q[3]}{t:I_upravljac.R_keys_last_derived_clock[3].I[0]}{t:I_upravljac.R_keys_last_derived_clock[3].OUT[0]}{p:I_upravljac.Clk}{t:I_upravljac.Clk}{t:I_regfile.Clk}{p:I_regfile.Clk}{t:I_regfile.R3[3:0].C}
+e ckid0_1 {t:I_regfile.R3[3:0].C} dffe
+d ckid0_2 {t:I_upravljac.R_keys_last[3:0].Q[3]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i I_upravljac.R_keys_last[2]
+m 0 0
+u 0 0
+d ckid0_3 {t:I_upravljac.R_keys_last[3:0].Q[2]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i I_upravljac.R_keys_last[1]
+m 0 0
+u 0 0
+d ckid0_4 {t:I_upravljac.R_keys_last[3:0].Q[1]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i I_upravljac.R_keys_last[0]
+m 0 0
+u 0 0
+d ckid0_5 {t:I_upravljac.R_keys_last[3:0].Q[0]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0

@@ -1,0 +1,46 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\DL-labosi\\lab6\\impl1\\synwork\\plac6_impl1_comp.srs|-top|datapath|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554106868
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554130880
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554106064
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\ecp5u.vhd":1542241930
+#CUR:"C:\\DL-labosi\\lab6\\rf_4x4_1w_2r.vhd":1705576218
+#CUR:"C:\\DL-labosi\\lab6\\upravljac.vhd":1705576218
+#CUR:"C:\\DL-labosi\\lab6\\aloo.vhd":1705581976
+#CUR:"C:\\DL-labosi\\lab6\\datapath.vhd":1705655471
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd" vhdl
+1 "C:\DL-labosi\lab6\rf_4x4_1w_2r.vhd" vhdl
+2 "C:\DL-labosi\lab6\upravljac.vhd" vhdl
+3 "C:\DL-labosi\lab6\aloo.vhd" vhdl
+4 "C:\DL-labosi\lab6\datapath.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 3 1 2 
+
+# Dependency Lists (Users Of)
+0 -1
+1 4 
+2 4 
+3 4 
+4 -1
+
+# Design Unit to File Association
+arch work reg_file x 1
+module work reg_file 1
+arch work upravljac x 2
+module work upravljac 2
+arch work alu arch 3
+module work alu 3
+arch work datapath x 4
+module work datapath 4

@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/6/2023 12:38:12
+#Project Location: C:/DL-labosi/lab3; Project name: lab3
+prj_project open "C:/DL-labosi/lab3/lab3.ldf"
+prj_run Export -impl impl1 -task Promgen
+#Stop recording: 12/6/2023 13:29:49

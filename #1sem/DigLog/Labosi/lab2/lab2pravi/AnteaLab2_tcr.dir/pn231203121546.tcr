@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/3/2023 12:14:57
+#Project Location: C:/DL-labosi/lab2/lab2pravi; Project name: AnteaLab2
+prj_project open "C:/DL-labosi/lab2/lab2pravi/AnteaLab2.ldf"
+prj_project close
+#Stop recording: 12/3/2023 12:15:46

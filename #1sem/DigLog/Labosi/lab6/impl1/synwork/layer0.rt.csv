@@ -1,0 +1,5 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: alu Architecture: arch, 0h:00m:00s,     73 MB
+work, Entity: reg_file Architecture: x, 0h:00m:00s,     73 MB
+work, Entity: upravljac Architecture: x, 0h:00m:00s,     77 MB
+work, Entity: datapath Architecture: x, 0h:00m:00s,     77 MB

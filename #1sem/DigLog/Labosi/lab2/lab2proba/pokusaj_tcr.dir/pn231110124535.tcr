@@ -1,0 +1,12 @@
+#Start recording tcl command: 11/10/2023 12:30:16
+#Project Location: C:/DL-labosi/lab2/lab2proba; Project name: pokusaj
+prj_project new -name "pokusaj" -impl "impl1" -dev LFE2-12E-5T144C -synthesis "synplify" -lpf "C:/DL-labosi/lab2/lab2proba/ulx3s.lpf"
+prj_src add "C:/DL-labosi/lab2/lab2proba/lab2.sch" "C:/DL-labosi/lab2/lab2proba/serial_tx.sym" "C:/DL-labosi/lab2/lab2proba/serial_tx.vhd"
+prj_project save
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_src remove "C:/DL-labosi/lab2/lab2proba/lab2.sch"
+prj_src add "C:/DL-labosi/lab2/lab2proba/lab2.sch"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 11/10/2023 12:45:35

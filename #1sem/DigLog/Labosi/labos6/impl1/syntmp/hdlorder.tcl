@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/xp2.vhd" "C:/DL-labosi/labos6/aloo.vhd" "C:/DL-labosi/labos6/rf_4x4_1w_2r.vhd" "C:/DL-labosi/labos6/upravljac.vhd" "C:/DL-labosi/labos6/datapath.vhd" 

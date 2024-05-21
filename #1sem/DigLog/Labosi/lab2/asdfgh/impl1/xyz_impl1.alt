@@ -1,0 +1,23 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Nov 10 15:12:32 2023 *
+NOTE DESIGN NAME: lab2 *
+NOTE DEVICE NAME: LFE5U-12F-6CABGA381 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[7] : H3 : out *
+NOTE PINS btn_down : V1 : in *
+NOTE PINS rs232_tx : L4 : out *
+NOTE PINS clk_25m : G2 : in *
+NOTE PINS btn_up : R18 : in *
+NOTE PINS btn_right : H16 : in *
+NOTE PINS btn_left : U1 : in *
+NOTE PINS btn_f1 : R1 : in *
+NOTE PINS led[3] : D2 : out *
+NOTE PINS led[1] : C2 : out *
+NOTE PINS led[2] : C1 : out *
+NOTE PINS led[0] : B2 : out *
+NOTE PINS led[4] : D1 : out *
+NOTE PINS led[6] : E1 : out *
+NOTE PINS led[5] : E2 : out *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: on *

@@ -1,0 +1,7 @@
+#Start recording tcl command: 11/10/2023 15:23:54
+#Project Location: C:/DL-labosi/lab2/lab2pravi; Project name: AnteaLab2
+prj_project new -name "AnteaLab2" -impl "impl1" -dev LFE5U-12F-6BG381C -synthesis "synplify" -lpf "C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf"
+prj_src add "C:/DL-labosi/lab2/lab2pravi/lab2.sch" "C:/DL-labosi/lab2/lab2pravi/serial_tx.sym" "C:/DL-labosi/lab2/lab2pravi/serial_tx.vhd"
+prj_project save
+prj_run Export -impl impl1 -task Promgen
+#Stop recording: 11/10/2023 15:25:29

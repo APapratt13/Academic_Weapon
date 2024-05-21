@@ -1,0 +1,8 @@
+#Start recording tcl command: 1/12/2024 14:05:31
+#Project Location: C:/DL-labosi/lab5; Project name: labos5
+prj_project open "C:/DL-labosi/lab5/labos5.ldf"
+prj_run Export -impl impl1 -task Promgen
+prj_src add "C:/DL-labosi/lab5/labos.vhd"
+prj_src exclude "C:/DL-labosi/lab5/morse.vhd"
+prj_run Export -impl impl1 -task Promgen
+#Stop recording: 1/12/2024 15:37:37

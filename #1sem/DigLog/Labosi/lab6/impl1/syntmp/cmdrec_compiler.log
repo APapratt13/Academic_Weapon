@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\DL-labosi\lab6\impl1\synwork\plac6_impl1_comp.srs  -top  datapath  -hdllog  C:\DL-labosi\lab6\impl1\synlog\plac6_impl1_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\DL-labosi\lab6\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work C:\DL-labosi\lab6\rf_4x4_1w_2r.vhd -lib work C:\DL-labosi\lab6\upravljac.vhd -lib work C:\DL-labosi\lab6\aloo.vhd -lib work C:\DL-labosi\lab6\datapath.vhd  -jobname  "compiler" 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\plac6_impl1_comp.srs -top datapath -hdllog ..\synlog\plac6_impl1_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work ..\..\rf_4x4_1w_2r.vhd -lib work ..\..\upravljac.vhd -lib work ..\..\aloo.vhd -lib work ..\..\datapath.vhd -jobname "compiler"
+rc:0 success:1 runtime:1
+file:..\synwork\plac6_impl1_comp.srs|io:o|time:1705655479|size:7070|exec:0|csum:
+file:..\synlog\plac6_impl1_compiler.srr|io:o|time:1705655479|size:4751|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd|io:i|time:1542241930|size:95858|exec:0|csum:09A233CA3378C2C7D322DAC246A99AC8
+file:..\..\rf_4x4_1w_2r.vhd|io:i|time:1705576218|size:1319|exec:0|csum:CDEC933D87386D89409057E90EDFE524
+file:..\..\upravljac.vhd|io:i|time:1705576218|size:1401|exec:0|csum:AA1F292D57E9009ACD18B147F56DA67F
+file:..\..\aloo.vhd|io:i|time:1705581976|size:1057|exec:0|csum:26CF8BCF7FCDCBE5377702EB1B2CAF85
+file:..\..\datapath.vhd|io:i|time:1705655471|size:1495|exec:0|csum:1EA578305A9758E875B3C6F9B12494EF
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe|io:i|time:1554106694|size:5681664|exec:1|csum:39598EA786684F7CB53832C08B4CCDF5

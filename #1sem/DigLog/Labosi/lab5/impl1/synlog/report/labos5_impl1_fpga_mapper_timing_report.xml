@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\DL-labosi\lab5\impl1\synlog\labos5_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>morse_top|R_symbol_clk_derived_clock</data>
+<data>200.0 MHz</data>
+<data>107.2 MHz</data>
+<data>-2.164</data>
+</row>
+<row>
+<data>morse_top|clk_25m</data>
+<data>200.0 MHz</data>
+<data>107.2 MHz</data>
+<data>0.180</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>928.5 MHz</data>
+<data>3.923</data>
+</row>
+</report_table>

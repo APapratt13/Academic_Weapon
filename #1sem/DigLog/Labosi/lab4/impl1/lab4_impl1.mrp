@@ -1,0 +1,864 @@
+
+            Lattice Mapping Report File for Design Module 'count'
+
+
+Design Information
+------------------
+
+Command line:   map -a ECP5U -p LFE5U-12F -t CABGA381 -s 6 -oc Commercial
+     lab4_impl1.ngd -o lab4_impl1_map.ncd -pr lab4_impl1.prf -mp lab4_impl1.mrp
+     -lpf C:/DL-labosi/lab4/impl1/lab4_impl1_synplify.lpf -lpf
+     C:/DL-labosi/lab4/ulx3s.lpf -gui -msgset C:/DL-labosi/lab4/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE5U-12FCABGA381
+Target Performance:   6
+Mapper:  sa5p00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  12/14/23  08:39:58
+
+Design Summary
+--------------
+
+   Number of registers:     32 out of 12687 (0%)
+      PFU registers:           32 out of 12096 (0%)
+      PIO registers:            0 out of   591 (0%)
+   Number of SLICEs:        26 out of  6048 (0%)
+      SLICEs as Logic/ROM:     26 out of  6048 (0%)
+      SLICEs as RAM:            0 out of  4536 (0%)
+      SLICEs as Carry:         17 out of  6048 (0%)
+   Number of LUT4s:         43 out of 12096 (0%)
+      Number used as logic LUTs:          9
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       34
+      Number used as shift registers:     0
+   Number of PIO sites used: 14 out of 197 (7%)
+   Number of block RAMs:  0 out of 32 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+   MULT9X9D            0
+   ALU54B              0
+   ALU24B              0
+   PRADD18A            0
+
+                                    Page 1
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Summary (cont)
+---------------------
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 56 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 28 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 56 (0 %)
+   Number of clocks:  1
+     Net clk_25m_c: 17 loads, 17 rising, 0 falling (Driver: PIO clk_25m )
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net btn_down_c: 8 loads
+     Net r: 2 loads
+     Net R[16]: 2 loads
+     Net R[17]: 2 loads
+     Net R[18]: 2 loads
+     Net R[19]: 2 loads
+     Net R[20]: 2 loads
+     Net R[21]: 2 loads
+     Net R[22]: 2 loads
+     Net R[31]: 2 loads
+
+
+
+
+   Number of warnings:  191
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(18): Semantic error in "LOCATE COMP
+     "rs232_rx" SITE "M1" ;": COMP "rs232_rx" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(19): Semantic error in "LOCATE COMP
+     "rs232_tx" SITE "L4" ;": COMP "rs232_tx" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(38): Semantic error in "LOCATE COMP
+     "btn_up" SITE "R18" ;": COMP "btn_up" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(40): Semantic error in "LOCATE COMP
+     "btn_left" SITE "U1" ;": COMP "btn_left" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(41): Semantic error in "LOCATE COMP
+     "btn_right" SITE "H16" ;": COMP "btn_right" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(42): Semantic error in "LOCATE COMP
+     "btn_f1" SITE "R1" ;": COMP "btn_f1" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(43): Semantic error in "LOCATE COMP
+     "btn_f2" SITE "T1" ;": COMP "btn_f2" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(44): Semantic error in "LOCATE COMP
+     "btn_pwr" SITE "D6" ;": COMP "btn_pwr" cannot be found in design. This
+     preference has been disabled.
+
+                                    Page 2
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(47): Semantic error in "LOCATE COMP
+     "p_tip[0]" SITE "E4" ;": COMP "p_tip[0]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(48): Semantic error in "LOCATE COMP
+     "p_tip[1]" SITE "D3" ;": COMP "p_tip[1]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(49): Semantic error in "LOCATE COMP
+     "p_tip[2]" SITE "C3" ;": COMP "p_tip[2]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(50): Semantic error in "LOCATE COMP
+     "p_tip[3]" SITE "B3" ;": COMP "p_tip[3]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(51): Semantic error in "LOCATE COMP
+     "p_ring[0]" SITE "A3" ;": COMP "p_ring[0]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(52): Semantic error in "LOCATE COMP
+     "p_ring[1]" SITE "B5" ;": COMP "p_ring[1]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(53): Semantic error in "LOCATE COMP
+     "p_ring[2]" SITE "D5" ;": COMP "p_ring[2]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(54): Semantic error in "LOCATE COMP
+     "p_ring[3]" SITE "C5" ;": COMP "p_ring[3]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(55): Semantic error in "LOCATE COMP
+     "p_ring2[0]" SITE "H5" ;": COMP "p_ring2[0]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(56): Semantic error in "LOCATE COMP
+     "p_ring2[1]" SITE "F2" ;": COMP "p_ring2[1]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(57): Semantic error in "LOCATE COMP
+     "p_ring2[2]" SITE "F5" ;": COMP "p_ring2[2]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(58): Semantic error in "LOCATE COMP
+     "p_ring2[3]" SITE "E5" ;": COMP "p_ring2[3]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(61): Semantic error in "LOCATE COMP
+     "flash_cen" SITE "R2" ;": COMP "flash_cen" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(62): Semantic error in "LOCATE COMP
+     "flash_sck" SITE "U3" ;": COMP "flash_sck" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(63): Semantic error in "LOCATE COMP
+     "flash_si" SITE "W2" ;": COMP "flash_si" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(64): Semantic error in "LOCATE COMP
+     "flash_so" SITE "V2" ;": COMP "flash_so" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(65): Semantic error in "LOCATE COMP
+     "flash_holdn" SITE "W1" ;": COMP "flash_holdn" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(66): Semantic error in "LOCATE COMP
+     "flash_wpn" SITE "Y2" ;": COMP "flash_wpn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(69): Semantic error in "LOCATE COMP
+     "sd_clk" SITE "H2" ;": COMP "sd_clk" cannot be found in design. This
+
+                                    Page 3
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(70): Semantic error in "LOCATE COMP
+     "sd_cmd" SITE "J1" ;": COMP "sd_cmd" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(71): Semantic error in "LOCATE COMP
+     "sd_d[0]" SITE "J3" ;": COMP "sd_d[0]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(72): Semantic error in "LOCATE COMP
+     "sd_d[1]" SITE "H1" ;": COMP "sd_d[1]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(73): Semantic error in "LOCATE COMP
+     "sd_d[2]" SITE "K1" ;": COMP "sd_d[2]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(74): Semantic error in "LOCATE COMP
+     "sd_d[3]" SITE "K2" ;": COMP "sd_d[3]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(75): Semantic error in "LOCATE COMP
+     "sd_wp" SITE "P5" ;": COMP "sd_wp" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(76): Semantic error in "LOCATE COMP
+     "sd_cdn" SITE "N5" ;": COMP "sd_cdn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(79): Semantic error in "LOCATE COMP
+     "adc_csn" SITE "R17" ;": COMP "adc_csn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(80): Semantic error in "LOCATE COMP
+     "adc_mosi" SITE "R16" ;": COMP "adc_mosi" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(81): Semantic error in "LOCATE COMP
+     "adc_miso" SITE "U16" ;": COMP "adc_miso" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(82): Semantic error in "LOCATE COMP
+     "adc_sclk" SITE "P17" ;": COMP "adc_sclk" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(85): Semantic error in "LOCATE COMP
+     "ant" SITE "G1" ;": COMP "ant" cannot be found in design. This preference
+     has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(88): Semantic error in "LOCATE COMP
+     "sdram_clk" SITE "F19" ;": COMP "sdram_clk" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(89): Semantic error in "LOCATE COMP
+     "sdram_cke" SITE "F20" ;": COMP "sdram_cke" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(90): Semantic error in "LOCATE COMP
+     "sdram_csn" SITE "P20" ;": COMP "sdram_csn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(91): Semantic error in "LOCATE COMP
+     "sdram_wen" SITE "T20" ;": COMP "sdram_wen" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(92): Semantic error in "LOCATE COMP
+     "sdram_rasn" SITE "R20" ;": COMP "sdram_rasn" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(93): Semantic error in "LOCATE COMP
+     "sdram_casn" SITE "T19" ;": COMP "sdram_casn" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(94): Semantic error in "LOCATE COMP
+
+                                    Page 4
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     "sdram_a[0]" SITE "M20" ;": COMP "sdram_a[0]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(95): Semantic error in "LOCATE COMP
+     "sdram_a[1]" SITE "M19" ;": COMP "sdram_a[1]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(96): Semantic error in "LOCATE COMP
+     "sdram_a[2]" SITE "L20" ;": COMP "sdram_a[2]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(97): Semantic error in "LOCATE COMP
+     "sdram_a[3]" SITE "L19" ;": COMP "sdram_a[3]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(98): Semantic error in "LOCATE COMP
+     "sdram_a[4]" SITE "K20" ;": COMP "sdram_a[4]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(99): Semantic error in "LOCATE COMP
+     "sdram_a[5]" SITE "K19" ;": COMP "sdram_a[5]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(100): Semantic error in "LOCATE COMP
+     "sdram_a[6]" SITE "K18" ;": COMP "sdram_a[6]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(101): Semantic error in "LOCATE COMP
+     "sdram_a[7]" SITE "J20" ;": COMP "sdram_a[7]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(102): Semantic error in "LOCATE COMP
+     "sdram_a[8]" SITE "J19" ;": COMP "sdram_a[8]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(103): Semantic error in "LOCATE COMP
+     "sdram_a[9]" SITE "H20" ;": COMP "sdram_a[9]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(104): Semantic error in "LOCATE COMP
+     "sdram_a[10]" SITE "N19" ;": COMP "sdram_a[10]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(105): Semantic error in "LOCATE COMP
+     "sdram_a[11]" SITE "G20" ;": COMP "sdram_a[11]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(106): Semantic error in "LOCATE COMP
+     "sdram_a[12]" SITE "G19" ;": COMP "sdram_a[12]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(107): Semantic error in "LOCATE COMP
+     "sdram_ba[0]" SITE "P19" ;": COMP "sdram_ba[0]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(108): Semantic error in "LOCATE COMP
+     "sdram_ba[1]" SITE "N20" ;": COMP "sdram_ba[1]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(109): Semantic error in "LOCATE COMP
+     "sdram_dqm[0]" SITE "U19" ;": COMP "sdram_dqm[0]" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(110): Semantic error in "LOCATE COMP
+     "sdram_dqm[1]" SITE "E20" ;": COMP "sdram_dqm[1]" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(111): Semantic error in "LOCATE COMP
+     "sdram_d[0]" SITE "J16" ;": COMP "sdram_d[0]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(112): Semantic error in "LOCATE COMP
+     "sdram_d[1]" SITE "L18" ;": COMP "sdram_d[1]" cannot be found in design.
+     This preference has been disabled.
+
+                                    Page 5
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(113): Semantic error in "LOCATE COMP
+     "sdram_d[2]" SITE "M18" ;": COMP "sdram_d[2]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(114): Semantic error in "LOCATE COMP
+     "sdram_d[3]" SITE "N18" ;": COMP "sdram_d[3]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(115): Semantic error in "LOCATE COMP
+     "sdram_d[4]" SITE "P18" ;": COMP "sdram_d[4]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(116): Semantic error in "LOCATE COMP
+     "sdram_d[5]" SITE "T18" ;": COMP "sdram_d[5]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(117): Semantic error in "LOCATE COMP
+     "sdram_d[6]" SITE "T17" ;": COMP "sdram_d[6]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(118): Semantic error in "LOCATE COMP
+     "sdram_d[7]" SITE "U20" ;": COMP "sdram_d[7]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(119): Semantic error in "LOCATE COMP
+     "sdram_d[8]" SITE "E19" ;": COMP "sdram_d[8]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(120): Semantic error in "LOCATE COMP
+     "sdram_d[9]" SITE "D20" ;": COMP "sdram_d[9]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(121): Semantic error in "LOCATE COMP
+     "sdram_d[10]" SITE "D19" ;": COMP "sdram_d[10]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(122): Semantic error in "LOCATE COMP
+     "sdram_d[11]" SITE "C20" ;": COMP "sdram_d[11]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(123): Semantic error in "LOCATE COMP
+     "sdram_d[12]" SITE "E18" ;": COMP "sdram_d[12]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(124): Semantic error in "LOCATE COMP
+     "sdram_d[13]" SITE "F18" ;": COMP "sdram_d[13]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(125): Semantic error in "LOCATE COMP
+     "sdram_d[14]" SITE "J18" ;": COMP "sdram_d[14]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(126): Semantic error in "LOCATE COMP
+     "sdram_d[15]" SITE "J17" ;": COMP "sdram_d[15]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(129): Semantic error in "LOCATE COMP
+     "gpdi_dp[0]" SITE "A16" ;": COMP "gpdi_dp[0]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(130): Semantic error in "LOCATE COMP
+     "gpdi_dn[0]" SITE "B16" ;": COMP "gpdi_dn[0]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(131): Semantic error in "LOCATE COMP
+     "gpdi_dp[1]" SITE "A14" ;": COMP "gpdi_dp[1]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(132): Semantic error in "LOCATE COMP
+     "gpdi_dn[1]" SITE "C14" ;": COMP "gpdi_dn[1]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(133): Semantic error in "LOCATE COMP
+     "gpdi_dp[2]" SITE "A12" ;": COMP "gpdi_dp[2]" cannot be found in design.
+
+                                    Page 6
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(134): Semantic error in "LOCATE COMP
+     "gpdi_dn[2]" SITE "A13" ;": COMP "gpdi_dn[2]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(135): Semantic error in "LOCATE COMP
+     "gpdi_dp[3]" SITE "A17" ;": COMP "gpdi_dp[3]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(136): Semantic error in "LOCATE COMP
+     "gpdi_dn[3]" SITE "B18" ;": COMP "gpdi_dn[3]" cannot be found in design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(137): Semantic error in "LOCATE COMP
+     "gpdi_ethp" SITE "A19" ;": COMP "gpdi_ethp" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(138): Semantic error in "LOCATE COMP
+     "gpdi_ethn" SITE "B20" ;": COMP "gpdi_ethn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(139): Semantic error in "LOCATE COMP
+     "gpdi_cec" SITE "A18" ;": COMP "gpdi_cec" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(140): Semantic error in "LOCATE COMP
+     "gpdi_sda" SITE "B19" ;": COMP "gpdi_sda" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(141): Semantic error in "LOCATE COMP
+     "gpdi_scl" SITE "E12" ;": COMP "gpdi_scl" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(142): Semantic error in "IOBUF PORT
+     "gpdi_dp[0]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dp[0]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(143): Semantic error in "IOBUF PORT
+     "gpdi_dn[0]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dn[0]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(144): Semantic error in "IOBUF PORT
+     "gpdi_dp[1]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dp[1]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(145): Semantic error in "IOBUF PORT
+     "gpdi_dn[1]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dn[1]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(146): Semantic error in "IOBUF PORT
+     "gpdi_dp[2]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dp[2]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(147): Semantic error in "IOBUF PORT
+     "gpdi_dn[2]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dn[2]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(148): Semantic error in "IOBUF PORT
+     "gpdi_dp[3]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dp[3]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(149): Semantic error in "IOBUF PORT
+     "gpdi_dn[3]" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_dn[3]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(150): Semantic error in "IOBUF PORT
+     "gpdi_ethp" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_ethp" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(151): Semantic error in "IOBUF PORT
+     "gpdi_ethn" IO_TYPE=LVCMOS33D DRIVE=4 ;": Port "gpdi_ethn" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(152): Semantic error in "IOBUF PORT
+
+                                    Page 7
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     "gpdi_cec" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;": Port "gpdi_cec" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(153): Semantic error in "IOBUF PORT
+     "gpdi_sda" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;": Port "gpdi_sda" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(154): Semantic error in "IOBUF PORT
+     "gpdi_scl" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;": Port "gpdi_scl" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(162): Semantic error in "LOCATE COMP
+     "gp[0]" SITE "B11" ;": COMP "gp[0]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(163): Semantic error in "LOCATE COMP
+     "gn[0]" SITE "C11" ;": COMP "gn[0]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(164): Semantic error in "LOCATE COMP
+     "gp[1]" SITE "A10" ;": COMP "gp[1]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(165): Semantic error in "LOCATE COMP
+     "gn[1]" SITE "A11" ;": COMP "gn[1]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(166): Semantic error in "LOCATE COMP
+     "gp[2]" SITE "A9" ;": COMP "gp[2]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(167): Semantic error in "LOCATE COMP
+     "gn[2]" SITE "B10" ;": COMP "gn[2]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(168): Semantic error in "LOCATE COMP
+     "gp[3]" SITE "B9" ;": COMP "gp[3]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(169): Semantic error in "LOCATE COMP
+     "gn[3]" SITE "C10" ;": COMP "gn[3]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(170): Semantic error in "LOCATE COMP
+     "gp[4]" SITE "A7" ;": COMP "gp[4]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(171): Semantic error in "LOCATE COMP
+     "gn[4]" SITE "A8" ;": COMP "gn[4]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(172): Semantic error in "LOCATE COMP
+     "gp[5]" SITE "C8" ;": COMP "gp[5]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(173): Semantic error in "LOCATE COMP
+     "gn[5]" SITE "B8" ;": COMP "gn[5]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(174): Semantic error in "LOCATE COMP
+     "gp[6]" SITE "C6" ;": COMP "gp[6]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(175): Semantic error in "LOCATE COMP
+     "gn[6]" SITE "C7" ;": COMP "gn[6]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(176): Semantic error in "LOCATE COMP
+     "gp[7]" SITE "A6" ;": COMP "gp[7]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(177): Semantic error in "LOCATE COMP
+     "gn[7]" SITE "B6" ;": COMP "gn[7]" cannot be found in design. This
+     preference has been disabled.
+
+                                    Page 8
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(178): Semantic error in "LOCATE COMP
+     "gp[8]" SITE "A4" ;": COMP "gp[8]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(179): Semantic error in "LOCATE COMP
+     "gn[8]" SITE "A5" ;": COMP "gn[8]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(180): Semantic error in "LOCATE COMP
+     "gp[9]" SITE "A2" ;": COMP "gp[9]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(181): Semantic error in "LOCATE COMP
+     "gn[9]" SITE "B1" ;": COMP "gn[9]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(182): Semantic error in "LOCATE COMP
+     "gp[10]" SITE "C4" ;": COMP "gp[10]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(183): Semantic error in "LOCATE COMP
+     "gn[10]" SITE "B4" ;": COMP "gn[10]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(184): Semantic error in "LOCATE COMP
+     "gp[11]" SITE "F4" ;": COMP "gp[11]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(185): Semantic error in "LOCATE COMP
+     "gn[11]" SITE "E3" ;": COMP "gn[11]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(186): Semantic error in "LOCATE COMP
+     "gp[12]" SITE "G3" ;": COMP "gp[12]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(187): Semantic error in "LOCATE COMP
+     "gn[12]" SITE "F3" ;": COMP "gn[12]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(188): Semantic error in "LOCATE COMP
+     "gp[13]" SITE "H4" ;": COMP "gp[13]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(189): Semantic error in "LOCATE COMP
+     "gn[13]" SITE "G5" ;": COMP "gn[13]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(190): Semantic error in "LOCATE COMP
+     "gp[14]" SITE "U18" ;": COMP "gp[14]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(191): Semantic error in "LOCATE COMP
+     "gn[14]" SITE "U17" ;": COMP "gn[14]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(192): Semantic error in "LOCATE COMP
+     "gp[15]" SITE "N17" ;": COMP "gp[15]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(193): Semantic error in "LOCATE COMP
+     "gn[15]" SITE "P16" ;": COMP "gn[15]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(194): Semantic error in "LOCATE COMP
+     "gp[16]" SITE "N16" ;": COMP "gp[16]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(195): Semantic error in "LOCATE COMP
+     "gn[16]" SITE "M17" ;": COMP "gn[16]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(196): Semantic error in "LOCATE COMP
+     "gp[17]" SITE "L16" ;": COMP "gp[17]" cannot be found in design. This
+
+                                    Page 9
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(197): Semantic error in "LOCATE COMP
+     "gn[17]" SITE "L17" ;": COMP "gn[17]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(198): Semantic error in "LOCATE COMP
+     "gp[18]" SITE "H18" ;": COMP "gp[18]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(199): Semantic error in "LOCATE COMP
+     "gn[18]" SITE "H17" ;": COMP "gn[18]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(200): Semantic error in "LOCATE COMP
+     "gp[19]" SITE "F17" ;": COMP "gp[19]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(201): Semantic error in "LOCATE COMP
+     "gn[19]" SITE "G18" ;": COMP "gn[19]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(202): Semantic error in "LOCATE COMP
+     "gp[20]" SITE "D18" ;": COMP "gp[20]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(203): Semantic error in "LOCATE COMP
+     "gn[20]" SITE "E17" ;": COMP "gn[20]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(204): Semantic error in "LOCATE COMP
+     "gp[21]" SITE "C18" ;": COMP "gp[21]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(205): Semantic error in "LOCATE COMP
+     "gn[21]" SITE "D17" ;": COMP "gn[21]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(206): Semantic error in "LOCATE COMP
+     "gp[22]" SITE "B15" ;": COMP "gp[22]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(207): Semantic error in "LOCATE COMP
+     "gn[22]" SITE "C15" ;": COMP "gn[22]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(208): Semantic error in "LOCATE COMP
+     "gp[23]" SITE "B17" ;": COMP "gp[23]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(209): Semantic error in "LOCATE COMP
+     "gn[23]" SITE "C17" ;": COMP "gn[23]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(210): Semantic error in "LOCATE COMP
+     "gp[24]" SITE "C16" ;": COMP "gp[24]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(211): Semantic error in "LOCATE COMP
+     "gn[24]" SITE "D16" ;": COMP "gn[24]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(212): Semantic error in "LOCATE COMP
+     "gp[25]" SITE "D14" ;": COMP "gp[25]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(213): Semantic error in "LOCATE COMP
+     "gn[25]" SITE "E14" ;": COMP "gn[25]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(214): Semantic error in "LOCATE COMP
+     "gp[26]" SITE "B13" ;": COMP "gp[26]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(215): Semantic error in "LOCATE COMP
+
+                                   Page 10
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     "gn[26]" SITE "C13" ;": COMP "gn[26]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(216): Semantic error in "LOCATE COMP
+     "gp[27]" SITE "D13" ;": COMP "gp[27]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(217): Semantic error in "LOCATE COMP
+     "gn[27]" SITE "E13" ;": COMP "gn[27]" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(220): Semantic error in "LOCATE COMP
+     "user_programn" SITE "M4" ;": COMP "user_programn" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(221): Semantic error in "IOBUF PORT
+     "user_programn" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;": Port
+     "user_programn" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(224): Semantic error in "LOCATE COMP
+     "shutdown" SITE "G16" ;": COMP "shutdown" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(225): Semantic error in "IOBUF PORT
+     "shutdown" PULLMODE=DOWN IO_TYPE=LVCMOS33 DRIVE=4 ;": Port "shutdown" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(228): Semantic error in "LOCATE COMP
+     "oled_clk" SITE "P4" ;": COMP "oled_clk" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(229): Semantic error in "LOCATE COMP
+     "oled_mosi" SITE "P3" ;": COMP "oled_mosi" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(230): Semantic error in "LOCATE COMP
+     "oled_dc" SITE "P1" ;": COMP "oled_dc" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(231): Semantic error in "LOCATE COMP
+     "oled_resn" SITE "P2" ;": COMP "oled_resn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(232): Semantic error in "LOCATE COMP
+     "oled_csn" SITE "N2" ;": COMP "oled_csn" cannot be found in design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(248): Semantic error in "IOBUF PORT
+     "btn_pwr" PULLMODE=UP ;": Port "btn_pwr" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(249): Semantic error in "IOBUF PORT
+     "btn_f1" PULLMODE=DOWN ;": Port "btn_f1" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(250): Semantic error in "IOBUF PORT
+     "btn_f2" PULLMODE=DOWN ;": Port "btn_f2" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(251): Semantic error in "IOBUF PORT
+     "btn_up" PULLMODE=DOWN ;": Port "btn_up" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(253): Semantic error in "IOBUF PORT
+     "btn_left" PULLMODE=DOWN ;": Port "btn_left" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(254): Semantic error in "IOBUF PORT
+     "btn_right" PULLMODE=DOWN ;": Port "btn_right" does not exist in the
+     design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(255): Semantic error in "IOBUF PORT
+     "flash_csn" PULLMODE=UP ;": Port "flash_csn" does not exist in the design.
+
+                                   Page 11
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+Design Errors/Warnings (cont)
+-----------------------------
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(256): Semantic error in "IOBUF PORT
+     "flash_holdn" PULLMODE=UP ;": Port "flash_holdn" does not exist in the
+     design. This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(257): Semantic error in "IOBUF PORT
+     "flash_wpn" PULLMODE=UP ;": Port "flash_wpn" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(258): Semantic error in "IOBUF PORT
+     "p_ring2[3]" DRIVE=16 ;": Port "p_ring2[3]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(259): Semantic error in "IOBUF PORT
+     "p_ring2[2]" DRIVE=16 ;": Port "p_ring2[2]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(260): Semantic error in "IOBUF PORT
+     "p_ring2[1]" DRIVE=16 ;": Port "p_ring2[1]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(261): Semantic error in "IOBUF PORT
+     "p_ring2[0]" DRIVE=16 ;": Port "p_ring2[0]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(262): Semantic error in "IOBUF PORT
+     "p_ring[3]" DRIVE=16 ;": Port "p_ring[3]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(263): Semantic error in "IOBUF PORT
+     "p_ring[2]" DRIVE=16 ;": Port "p_ring[2]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(264): Semantic error in "IOBUF PORT
+     "p_ring[1]" DRIVE=16 ;": Port "p_ring[1]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(265): Semantic error in "IOBUF PORT
+     "p_ring[0]" DRIVE=16 ;": Port "p_ring[0]" does not exist in the design.
+     This preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(266): Semantic error in "IOBUF PORT
+     "p_tip[3]" DRIVE=16 ;": Port "p_tip[3]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(267): Semantic error in "IOBUF PORT
+     "p_tip[2]" DRIVE=16 ;": Port "p_tip[2]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(268): Semantic error in "IOBUF PORT
+     "p_tip[1]" DRIVE=16 ;": Port "p_tip[1]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/DL-labosi/lab4/ulx3s.lpf(269): Semantic error in "IOBUF PORT
+     "p_tip[0]" DRIVE=16 ;": Port "p_tip[0]" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: DRIVE=4 for clk_25m_pad/IOBUF violates legal combination and is
+     ignored.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| led[0]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| clk_25m             | INPUT     | LVCMOS33  |            |
+
+                                   Page 12
+
+
+
+
+Design:  count                                         Date:  12/14/23  08:39:58
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| led[7]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[5]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[3]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[2]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[1]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[3]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[2]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[1]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[0]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| btn_down            | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal r_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal r_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Signal r_s_31_0_S1 undriven or does not drive anything - clipped.
+Signal r_s_31_0_COUT undriven or does not drive anything - clipped.
+Block VCC was optimized away.
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 108 MB
+        
+
+
+
+
+
+
+
+
+
+                                   Page 13
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  datapath  -multisrs  C:\DL-labosi\lab6\impl1\synwork\plac6_impl1_comp.srs  -osyn  C:\DL-labosi\lab6\impl1\synwork\plac6_impl1_mult.srs  -log  C:\DL-labosi\lab6\impl1\synlog\plac6_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top datapath -multisrs ..\synwork\plac6_impl1_comp.srs -osyn ..\synwork\plac6_impl1_mult.srs -log ..\synlog\plac6_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\plac6_impl1_comp.srs|io:i|time:1705655479|size:7070|exec:0|csum:DDD8324998CB653ED9922F789D2AA057
+file:..\synwork\plac6_impl1_mult.srs|io:o|time:1705655480|size:3239|exec:0|csum:
+file:..\synlog\plac6_impl1_multi_srs_gen.srr|io:o|time:1705655480|size:1085|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554106952|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

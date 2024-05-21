@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/11/2024 22:02:01
+#Project Location: C:/DL-labosi/lab5; Project name: labos5
+prj_project new -name "labos5" -impl "impl1" -dev LFE5U-12F-6BG381C -synthesis "synplify" -lpf "C:/DL-labosi/lab5/ulx3s.lpf"
+prj_src add "C:/DL-labosi/lab5/morse.vhd" "C:/DL-labosi/lab5/morse_toplevel.vhd" "C:/DL-labosi/lab5/serial_tx.vhd" "C:/DL-labosi/lab5/tonegen.vhd"
+prj_project save
+prj_run Export -impl impl1 -task Promgen
+#Stop recording: 1/11/2024 22:04:40

@@ -1,0 +1,24 @@
+---------------------------------------------------
+Report for cell lab2
+   Instance path: lab2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      90.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	     109.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         15        100.0
+                                PFUREG	         76        100.0
+                                RIPPLE	         29        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             serial_tx	          1        91.8
+---------------------------------------------------
+Report for cell serial_tx
+   Instance path: lab2/I1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      82.63        91.8
+                                  LUT4	      97.00        89.0
+                                PFUREG	         76        100.0
+                                RIPPLE	         29        100.0

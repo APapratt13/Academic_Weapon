@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell count
+   Instance path: count
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00        100.0
+                                  LUT4	       9.00        100.0
+                                 IOBUF	         14        100.0
+                                PFUREG	         32        100.0
+                                RIPPLE	         17        100.0

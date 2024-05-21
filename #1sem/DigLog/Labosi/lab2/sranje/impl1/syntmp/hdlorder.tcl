@@ -1,0 +1,1 @@
+project -fileorder "C:/DL-labosi/lab2/sranje/serial_tx.vhd" 

@@ -1,0 +1,33 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Jan 12 15:22:43 2024 *
+NOTE DESIGN NAME: morse_top *
+NOTE DEVICE NAME: LFE5U-12F-6CABGA381 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[0] : B2 : out *
+NOTE PINS clk_25m : G2 : in *
+NOTE PINS p_ring[3] : C5 : out *
+NOTE PINS p_ring[2] : D5 : out *
+NOTE PINS p_ring[1] : B5 : out *
+NOTE PINS p_ring[0] : A3 : out *
+NOTE PINS p_tip[3] : B3 : out *
+NOTE PINS p_tip[2] : C3 : out *
+NOTE PINS p_tip[1] : D3 : out *
+NOTE PINS p_tip[0] : E4 : out *
+NOTE PINS rs232_tx : L4 : out *
+NOTE PINS led[7] : H3 : out *
+NOTE PINS led[6] : E1 : out *
+NOTE PINS led[5] : E2 : out *
+NOTE PINS led[4] : D1 : out *
+NOTE PINS led[3] : D2 : out *
+NOTE PINS led[2] : C1 : out *
+NOTE PINS led[1] : C2 : out *
+NOTE PINS sw[3] : E8 : in *
+NOTE PINS sw[2] : D8 : in *
+NOTE PINS sw[1] : D7 : in *
+NOTE PINS sw[0] : E7 : in *
+NOTE PINS btn_up : R18 : in *
+NOTE PINS btn_right : H16 : in *
+NOTE PINS btn_left : U1 : in *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: on *

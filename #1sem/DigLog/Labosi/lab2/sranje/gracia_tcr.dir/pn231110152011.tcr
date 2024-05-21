@@ -1,0 +1,11 @@
+#Start recording tcl command: 11/10/2023 12:48:55
+#Project Location: C:/DL-labosi/lab2/sranje; Project name: gracia
+prj_project new -name "gracia" -impl "impl1" -dev LFXP2-8E-5TN144C -synthesis "synplify" -lpf "C:/DL-labosi/lab2/sranje/ulx3s.lpf"
+prj_src add "C:/DL-labosi/lab2/sranje/lab2.sch" "C:/DL-labosi/lab2/sranje/serial_tx.sym" "C:/DL-labosi/lab2/sranje/serial_tx.vhd"
+prj_project save
+prj_run Export -impl impl1 -task Bitgen
+prj_src add -exclude "C:/DL-labosi/lab2/sranje/ulx2s.lpf"
+prj_src enable "C:/DL-labosi/lab2/sranje/ulx2s.lpf"
+prj_src remove "C:/DL-labosi/lab2/sranje/ulx3s.lpf"
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 11/10/2023 15:20:11

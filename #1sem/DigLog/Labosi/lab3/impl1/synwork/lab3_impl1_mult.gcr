@@ -1,0 +1,7 @@
+i clk_25m
+m 0 0
+u 14 74
+p {p:clk_25m}{t:serializer.clk}{p:serializer.clk}{t:serializer.R_tx_ser[0].C}
+e ckid0_0 {t:serializer.R_tx_ser[0].C} dffse
+c ckid0_0 {p:clk_25m} Unconstrained_port Inferred clock from port
+l 0 0 0 0 0

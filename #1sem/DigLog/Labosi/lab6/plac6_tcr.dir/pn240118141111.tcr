@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/18/2024 12:55:40
+#Project Location: C:/DL-labosi/lab6; Project name: plac6
+prj_project new -name "plac6" -impl "impl1" -dev LFE5U-12F-6BG381C -synthesis "synplify" -lpf "C:/DL-labosi/lab6/ulx3s.lpf"
+prj_src add "C:/DL-labosi/lab6/datapath.vhd" "C:/DL-labosi/lab6/rf_4x4_1w_2r.vhd" "C:/DL-labosi/lab6/upravljac.vhd"
+prj_project save
+prj_src add "C:/DL-labosi/lab6/aloo.vhd"
+prj_project save
+prj_project close
+#Stop recording: 1/18/2024 14:11:11

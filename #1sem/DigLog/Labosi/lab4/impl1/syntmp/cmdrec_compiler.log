@@ -1,0 +1,9 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\DL-labosi\lab4\impl1\synwork\lab4_impl1_comp.srs  -top  count  -hdllog  C:\DL-labosi\lab4\impl1\synlog\lab4_impl1_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\DL-labosi\lab4\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work C:\DL-labosi\lab4\debouncer.vhd -lib work C:\DL-labosi\lab4\count.vhd  -jobname  "compiler" 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\lab4_impl1_comp.srs -top count -hdllog ..\synlog\lab4_impl1_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work ..\..\debouncer.vhd -lib work ..\..\count.vhd -jobname "compiler"
+rc:0 success:1 runtime:1
+file:..\synwork\lab4_impl1_comp.srs|io:o|time:1702539591|size:1698|exec:0|csum:
+file:..\synlog\lab4_impl1_compiler.srr|io:o|time:1702539591|size:3724|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd|io:i|time:1542241930|size:95858|exec:0|csum:09A233CA3378C2C7D322DAC246A99AC8
+file:..\..\debouncer.vhd|io:i|time:1702302551|size:689|exec:0|csum:9EEA47C0373117B2070F8F2846C9F004
+file:..\..\count.vhd|io:i|time:1702302550|size:551|exec:0|csum:17B4F393D3E61DC882C29B94A433AE93
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe|io:i|time:1554106694|size:5681664|exec:1|csum:39598EA786684F7CB53832C08B4CCDF5

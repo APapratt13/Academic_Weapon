@@ -1,0 +1,14 @@
+i clk_25m
+m 0 0
+u 22 214
+p {p:clk_25m}{t:R_clk_div[30:0].C}
+e ckid0_0 {t:R_clk_div[30:0].C} dff
+c ckid0_0 {p:clk_25m} Unconstrained_port Inferred clock from port
+i R_symbol_clk_i
+m 0 0
+u 3 14
+n ckid0_1 {t:fsm.R_state[2:0].C} Derived clock on input (not legal for GCC)
+p {t:R_symbol_clk.Q[0]}{t:R_symbol_clk_derived_clock.I[0]}{t:R_symbol_clk_derived_clock.OUT[0]}{t:R_symbol_clk_1.I[0]}{t:R_symbol_clk_1.OUT[0]}{t:R_led[7:0].C}
+e ckid0_2 {t:R_led[7:0].C} dff
+d ckid0_3 {t:R_symbol_clk.Q[0]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0

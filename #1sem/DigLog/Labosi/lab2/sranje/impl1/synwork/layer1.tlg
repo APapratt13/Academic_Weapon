@@ -1,0 +1,9 @@
+@N: CD630 :"C:\DL-labosi\lab2\sranje\serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral.
+Post processing for work.serial_tx.behavioral
+Running optimization stage 1 on serial_tx .......
+Running optimization stage 2 on serial_tx .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\DL-labosi\lab2\sranje\impl1\synwork\layer1.rt.csv
+

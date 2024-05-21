@@ -1,0 +1,26 @@
+@N: CD630 :"C:\DL-labosi\lab5\morse_toplevel.vhd":5:7:5:15|Synthesizing work.morse_top.struct.
+@N: CD630 :"C:\DL-labosi\lab5\tonegen.vhd":7:7:7:13|Synthesizing work.tonegen.x.
+Post processing for work.tonegen.x
+Running optimization stage 1 on tonegen .......
+@N: CD630 :"C:\DL-labosi\lab5\serial_tx.vhd":34:7:34:15|Synthesizing work.serial_tx.behavioral.
+Post processing for work.serial_tx.behavioral
+Running optimization stage 1 on serial_tx .......
+@N: CD630 :"C:\DL-labosi\lab5\labos.vhd":5:7:5:11|Synthesizing work.morse.mealy.
+@N: CD604 :"C:\DL-labosi\lab5\labos.vhd":99:1:99:14|OTHERS clause is not synthesized.
+@W: CG296 :"C:\DL-labosi\lab5\labos.vhd":48:4:48:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\DL-labosi\lab5\labos.vhd":57:31:57:31|Referenced variable r is not in sensitivity list.
+Post processing for work.morse.mealy
+Running optimization stage 1 on morse .......
+Post processing for work.morse_top.struct
+Running optimization stage 1 on morse_top .......
+Running optimization stage 2 on morse .......
+Running optimization stage 2 on serial_tx .......
+Running optimization stage 2 on tonegen .......
+Running optimization stage 2 on morse_top .......
+@N: CL189 :"C:\DL-labosi\lab5\morse_toplevel.vhd":35:4:35:5|Register bit R_clk_div(31) is always 0.
+@W: CL260 :"C:\DL-labosi\lab5\morse_toplevel.vhd":35:4:35:5|Pruning register bit 31 of R_clk_div(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\DL-labosi\lab5\impl1\synwork\layer0.rt.csv
+

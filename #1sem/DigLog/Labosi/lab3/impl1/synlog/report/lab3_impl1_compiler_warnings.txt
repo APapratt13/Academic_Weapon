@@ -1,0 +1,2 @@
+@W: CL246 :"C:\DL-labosi\lab3\slova.vhd":10:1:10:2|Input port bits 3 to 1 of sw(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+

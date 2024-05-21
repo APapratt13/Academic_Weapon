@@ -1,0 +1,7 @@
+i clk_25m
+m 0 0
+u 1 32
+p {p:clk_25m}{t:R[31:0].C}
+e ckid0_0 {t:R[31:0].C} dff
+c ckid0_0 {p:clk_25m} Unconstrained_port Inferred clock from port
+l 0 0 0 0 0

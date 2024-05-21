@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(18): Semantic error in &quot;LOCATE COMP &quot;rs232_rx&quot; SITE &quot;M1&quot; ;&quot;: </Dynamic>
+            <Dynamic>rs232_rx</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(32): Semantic error in &quot;LOCATE COMP &quot;sw[0]&quot; SITE &quot;E7&quot; ;&quot;: </Dynamic>
+            <Dynamic>sw[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(33): Semantic error in &quot;LOCATE COMP &quot;sw[1]&quot; SITE &quot;D7&quot; ;&quot;: </Dynamic>
+            <Dynamic>sw[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(34): Semantic error in &quot;LOCATE COMP &quot;sw[2]&quot; SITE &quot;D8&quot; ;&quot;: </Dynamic>
+            <Dynamic>sw[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(35): Semantic error in &quot;LOCATE COMP &quot;sw[3]&quot; SITE &quot;E8&quot; ;&quot;: </Dynamic>
+            <Dynamic>sw[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(43): Semantic error in &quot;LOCATE COMP &quot;btn_f2&quot; SITE &quot;T1&quot; ;&quot;: </Dynamic>
+            <Dynamic>btn_f2</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(44): Semantic error in &quot;LOCATE COMP &quot;btn_pwr&quot; SITE &quot;D6&quot; ;&quot;: </Dynamic>
+            <Dynamic>btn_pwr</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(47): Semantic error in &quot;LOCATE COMP &quot;p_tip[0]&quot; SITE &quot;E4&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>47</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(48): Semantic error in &quot;LOCATE COMP &quot;p_tip[1]&quot; SITE &quot;D3&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(49): Semantic error in &quot;LOCATE COMP &quot;p_tip[2]&quot; SITE &quot;C3&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(50): Semantic error in &quot;LOCATE COMP &quot;p_tip[3]&quot; SITE &quot;B3&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_tip[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(51): Semantic error in &quot;LOCATE COMP &quot;p_ring[0]&quot; SITE &quot;A3&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(52): Semantic error in &quot;LOCATE COMP &quot;p_ring[1]&quot; SITE &quot;B5&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(53): Semantic error in &quot;LOCATE COMP &quot;p_ring[2]&quot; SITE &quot;D5&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>53</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(54): Semantic error in &quot;LOCATE COMP &quot;p_ring[3]&quot; SITE &quot;C5&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(55): Semantic error in &quot;LOCATE COMP &quot;p_ring2[0]&quot; SITE &quot;H5&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>55</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(56): Semantic error in &quot;LOCATE COMP &quot;p_ring2[1]&quot; SITE &quot;F2&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(57): Semantic error in &quot;LOCATE COMP &quot;p_ring2[2]&quot; SITE &quot;F5&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(58): Semantic error in &quot;LOCATE COMP &quot;p_ring2[3]&quot; SITE &quot;E5&quot; ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(61): Semantic error in &quot;LOCATE COMP &quot;flash_cen&quot; SITE &quot;R2&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_cen</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>61</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(62): Semantic error in &quot;LOCATE COMP &quot;flash_sck&quot; SITE &quot;U3&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_sck</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>62</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(63): Semantic error in &quot;LOCATE COMP &quot;flash_si&quot; SITE &quot;W2&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_si</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>63</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(64): Semantic error in &quot;LOCATE COMP &quot;flash_so&quot; SITE &quot;V2&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_so</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>64</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(65): Semantic error in &quot;LOCATE COMP &quot;flash_holdn&quot; SITE &quot;W1&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_holdn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>65</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(66): Semantic error in &quot;LOCATE COMP &quot;flash_wpn&quot; SITE &quot;Y2&quot; ;&quot;: </Dynamic>
+            <Dynamic>flash_wpn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>66</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(69): Semantic error in &quot;LOCATE COMP &quot;sd_clk&quot; SITE &quot;H2&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_clk</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>69</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(70): Semantic error in &quot;LOCATE COMP &quot;sd_cmd&quot; SITE &quot;J1&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_cmd</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>70</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(71): Semantic error in &quot;LOCATE COMP &quot;sd_d[0]&quot; SITE &quot;J3&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_d[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>71</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(72): Semantic error in &quot;LOCATE COMP &quot;sd_d[1]&quot; SITE &quot;H1&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_d[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(73): Semantic error in &quot;LOCATE COMP &quot;sd_d[2]&quot; SITE &quot;K1&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_d[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>73</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(74): Semantic error in &quot;LOCATE COMP &quot;sd_d[3]&quot; SITE &quot;K2&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_d[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>74</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(75): Semantic error in &quot;LOCATE COMP &quot;sd_wp&quot; SITE &quot;P5&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_wp</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>75</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(76): Semantic error in &quot;LOCATE COMP &quot;sd_cdn&quot; SITE &quot;N5&quot; ;&quot;: </Dynamic>
+            <Dynamic>sd_cdn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>76</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(79): Semantic error in &quot;LOCATE COMP &quot;adc_csn&quot; SITE &quot;R17&quot; ;&quot;: </Dynamic>
+            <Dynamic>adc_csn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(80): Semantic error in &quot;LOCATE COMP &quot;adc_mosi&quot; SITE &quot;R16&quot; ;&quot;: </Dynamic>
+            <Dynamic>adc_mosi</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>80</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(81): Semantic error in &quot;LOCATE COMP &quot;adc_miso&quot; SITE &quot;U16&quot; ;&quot;: </Dynamic>
+            <Dynamic>adc_miso</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>81</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(82): Semantic error in &quot;LOCATE COMP &quot;adc_sclk&quot; SITE &quot;P17&quot; ;&quot;: </Dynamic>
+            <Dynamic>adc_sclk</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>82</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(85): Semantic error in &quot;LOCATE COMP &quot;ant&quot; SITE &quot;G1&quot; ;&quot;: </Dynamic>
+            <Dynamic>ant</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>85</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(88): Semantic error in &quot;LOCATE COMP &quot;sdram_clk&quot; SITE &quot;F19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_clk</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(89): Semantic error in &quot;LOCATE COMP &quot;sdram_cke&quot; SITE &quot;F20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_cke</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>89</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(90): Semantic error in &quot;LOCATE COMP &quot;sdram_csn&quot; SITE &quot;P20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_csn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>90</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(91): Semantic error in &quot;LOCATE COMP &quot;sdram_wen&quot; SITE &quot;T20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_wen</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>91</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(92): Semantic error in &quot;LOCATE COMP &quot;sdram_rasn&quot; SITE &quot;R20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_rasn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>92</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(93): Semantic error in &quot;LOCATE COMP &quot;sdram_casn&quot; SITE &quot;T19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_casn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>93</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(94): Semantic error in &quot;LOCATE COMP &quot;sdram_a[0]&quot; SITE &quot;M20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(95): Semantic error in &quot;LOCATE COMP &quot;sdram_a[1]&quot; SITE &quot;M19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>95</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(96): Semantic error in &quot;LOCATE COMP &quot;sdram_a[2]&quot; SITE &quot;L20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(97): Semantic error in &quot;LOCATE COMP &quot;sdram_a[3]&quot; SITE &quot;L19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>97</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(98): Semantic error in &quot;LOCATE COMP &quot;sdram_a[4]&quot; SITE &quot;K20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[4]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>98</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(99): Semantic error in &quot;LOCATE COMP &quot;sdram_a[5]&quot; SITE &quot;K19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[5]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>99</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(100): Semantic error in &quot;LOCATE COMP &quot;sdram_a[6]&quot; SITE &quot;K18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[6]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>100</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(101): Semantic error in &quot;LOCATE COMP &quot;sdram_a[7]&quot; SITE &quot;J20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[7]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>101</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(102): Semantic error in &quot;LOCATE COMP &quot;sdram_a[8]&quot; SITE &quot;J19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[8]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>102</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(103): Semantic error in &quot;LOCATE COMP &quot;sdram_a[9]&quot; SITE &quot;H20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[9]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>103</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(104): Semantic error in &quot;LOCATE COMP &quot;sdram_a[10]&quot; SITE &quot;N19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[10]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>104</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(105): Semantic error in &quot;LOCATE COMP &quot;sdram_a[11]&quot; SITE &quot;G20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[11]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>105</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(106): Semantic error in &quot;LOCATE COMP &quot;sdram_a[12]&quot; SITE &quot;G19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_a[12]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>106</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(107): Semantic error in &quot;LOCATE COMP &quot;sdram_ba[0]&quot; SITE &quot;P19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_ba[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>107</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(108): Semantic error in &quot;LOCATE COMP &quot;sdram_ba[1]&quot; SITE &quot;N20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_ba[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>108</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(109): Semantic error in &quot;LOCATE COMP &quot;sdram_dqm[0]&quot; SITE &quot;U19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_dqm[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>109</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(110): Semantic error in &quot;LOCATE COMP &quot;sdram_dqm[1]&quot; SITE &quot;E20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_dqm[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>110</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(111): Semantic error in &quot;LOCATE COMP &quot;sdram_d[0]&quot; SITE &quot;J16&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>111</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(112): Semantic error in &quot;LOCATE COMP &quot;sdram_d[1]&quot; SITE &quot;L18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>112</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(113): Semantic error in &quot;LOCATE COMP &quot;sdram_d[2]&quot; SITE &quot;M18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>113</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(114): Semantic error in &quot;LOCATE COMP &quot;sdram_d[3]&quot; SITE &quot;N18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(115): Semantic error in &quot;LOCATE COMP &quot;sdram_d[4]&quot; SITE &quot;P18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[4]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>115</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(116): Semantic error in &quot;LOCATE COMP &quot;sdram_d[5]&quot; SITE &quot;T18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[5]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>116</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(117): Semantic error in &quot;LOCATE COMP &quot;sdram_d[6]&quot; SITE &quot;T17&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[6]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>117</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(118): Semantic error in &quot;LOCATE COMP &quot;sdram_d[7]&quot; SITE &quot;U20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[7]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>118</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(119): Semantic error in &quot;LOCATE COMP &quot;sdram_d[8]&quot; SITE &quot;E19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[8]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>119</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(120): Semantic error in &quot;LOCATE COMP &quot;sdram_d[9]&quot; SITE &quot;D20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[9]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>120</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(121): Semantic error in &quot;LOCATE COMP &quot;sdram_d[10]&quot; SITE &quot;D19&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[10]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>121</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(122): Semantic error in &quot;LOCATE COMP &quot;sdram_d[11]&quot; SITE &quot;C20&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[11]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>122</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(123): Semantic error in &quot;LOCATE COMP &quot;sdram_d[12]&quot; SITE &quot;E18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[12]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>123</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(124): Semantic error in &quot;LOCATE COMP &quot;sdram_d[13]&quot; SITE &quot;F18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[13]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>124</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(125): Semantic error in &quot;LOCATE COMP &quot;sdram_d[14]&quot; SITE &quot;J18&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[14]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(126): Semantic error in &quot;LOCATE COMP &quot;sdram_d[15]&quot; SITE &quot;J17&quot; ;&quot;: </Dynamic>
+            <Dynamic>sdram_d[15]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(129): Semantic error in &quot;LOCATE COMP &quot;gpdi_dp[0]&quot; SITE &quot;A16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>129</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(130): Semantic error in &quot;LOCATE COMP &quot;gpdi_dn[0]&quot; SITE &quot;B16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>130</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(131): Semantic error in &quot;LOCATE COMP &quot;gpdi_dp[1]&quot; SITE &quot;A14&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>131</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(132): Semantic error in &quot;LOCATE COMP &quot;gpdi_dn[1]&quot; SITE &quot;C14&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>132</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(133): Semantic error in &quot;LOCATE COMP &quot;gpdi_dp[2]&quot; SITE &quot;A12&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(134): Semantic error in &quot;LOCATE COMP &quot;gpdi_dn[2]&quot; SITE &quot;A13&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>134</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(135): Semantic error in &quot;LOCATE COMP &quot;gpdi_dp[3]&quot; SITE &quot;A17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(136): Semantic error in &quot;LOCATE COMP &quot;gpdi_dn[3]&quot; SITE &quot;B18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>136</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(137): Semantic error in &quot;LOCATE COMP &quot;gpdi_ethp&quot; SITE &quot;A19&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_ethp</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>137</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(138): Semantic error in &quot;LOCATE COMP &quot;gpdi_ethn&quot; SITE &quot;B20&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_ethn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(139): Semantic error in &quot;LOCATE COMP &quot;gpdi_cec&quot; SITE &quot;A18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_cec</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>139</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(140): Semantic error in &quot;LOCATE COMP &quot;gpdi_sda&quot; SITE &quot;B19&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_sda</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>140</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(141): Semantic error in &quot;LOCATE COMP &quot;gpdi_scl&quot; SITE &quot;E12&quot; ;&quot;: </Dynamic>
+            <Dynamic>gpdi_scl</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>141</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(142): Semantic error in &quot;IOBUF PORT &quot;gpdi_dp[0]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>142</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(143): Semantic error in &quot;IOBUF PORT &quot;gpdi_dn[0]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>143</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(144): Semantic error in &quot;IOBUF PORT &quot;gpdi_dp[1]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>144</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(145): Semantic error in &quot;IOBUF PORT &quot;gpdi_dn[1]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>145</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(146): Semantic error in &quot;IOBUF PORT &quot;gpdi_dp[2]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>146</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(147): Semantic error in &quot;IOBUF PORT &quot;gpdi_dn[2]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>147</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(148): Semantic error in &quot;IOBUF PORT &quot;gpdi_dp[3]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dp[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>148</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(149): Semantic error in &quot;IOBUF PORT &quot;gpdi_dn[3]&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_dn[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>149</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(150): Semantic error in &quot;IOBUF PORT &quot;gpdi_ethp&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_ethp</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>150</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(151): Semantic error in &quot;IOBUF PORT &quot;gpdi_ethn&quot; IO_TYPE=LVCMOS33D DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_ethn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>151</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(152): Semantic error in &quot;IOBUF PORT &quot;gpdi_cec&quot; PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_cec</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>152</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(153): Semantic error in &quot;IOBUF PORT &quot;gpdi_sda&quot; PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_sda</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>153</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(154): Semantic error in &quot;IOBUF PORT &quot;gpdi_scl&quot; PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>gpdi_scl</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>154</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(162): Semantic error in &quot;LOCATE COMP &quot;gp[0]&quot; SITE &quot;B11&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>162</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(163): Semantic error in &quot;LOCATE COMP &quot;gn[0]&quot; SITE &quot;C11&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>163</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(164): Semantic error in &quot;LOCATE COMP &quot;gp[1]&quot; SITE &quot;A10&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>164</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(165): Semantic error in &quot;LOCATE COMP &quot;gn[1]&quot; SITE &quot;A11&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>165</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(166): Semantic error in &quot;LOCATE COMP &quot;gp[2]&quot; SITE &quot;A9&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>166</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(167): Semantic error in &quot;LOCATE COMP &quot;gn[2]&quot; SITE &quot;B10&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>167</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(168): Semantic error in &quot;LOCATE COMP &quot;gp[3]&quot; SITE &quot;B9&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>168</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(169): Semantic error in &quot;LOCATE COMP &quot;gn[3]&quot; SITE &quot;C10&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>169</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(170): Semantic error in &quot;LOCATE COMP &quot;gp[4]&quot; SITE &quot;A7&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[4]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>170</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(171): Semantic error in &quot;LOCATE COMP &quot;gn[4]&quot; SITE &quot;A8&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[4]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>171</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(172): Semantic error in &quot;LOCATE COMP &quot;gp[5]&quot; SITE &quot;C8&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[5]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>172</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(173): Semantic error in &quot;LOCATE COMP &quot;gn[5]&quot; SITE &quot;B8&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[5]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>173</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(174): Semantic error in &quot;LOCATE COMP &quot;gp[6]&quot; SITE &quot;C6&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[6]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>174</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(175): Semantic error in &quot;LOCATE COMP &quot;gn[6]&quot; SITE &quot;C7&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[6]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>175</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(176): Semantic error in &quot;LOCATE COMP &quot;gp[7]&quot; SITE &quot;A6&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[7]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>176</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(177): Semantic error in &quot;LOCATE COMP &quot;gn[7]&quot; SITE &quot;B6&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[7]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>177</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(178): Semantic error in &quot;LOCATE COMP &quot;gp[8]&quot; SITE &quot;A4&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[8]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(179): Semantic error in &quot;LOCATE COMP &quot;gn[8]&quot; SITE &quot;A5&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[8]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>179</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(180): Semantic error in &quot;LOCATE COMP &quot;gp[9]&quot; SITE &quot;A2&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[9]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>180</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(181): Semantic error in &quot;LOCATE COMP &quot;gn[9]&quot; SITE &quot;B1&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[9]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>181</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(182): Semantic error in &quot;LOCATE COMP &quot;gp[10]&quot; SITE &quot;C4&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[10]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(183): Semantic error in &quot;LOCATE COMP &quot;gn[10]&quot; SITE &quot;B4&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[10]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>183</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(184): Semantic error in &quot;LOCATE COMP &quot;gp[11]&quot; SITE &quot;F4&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[11]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>184</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(185): Semantic error in &quot;LOCATE COMP &quot;gn[11]&quot; SITE &quot;E3&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[11]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>185</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(186): Semantic error in &quot;LOCATE COMP &quot;gp[12]&quot; SITE &quot;G3&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[12]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>186</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(187): Semantic error in &quot;LOCATE COMP &quot;gn[12]&quot; SITE &quot;F3&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[12]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>187</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(188): Semantic error in &quot;LOCATE COMP &quot;gp[13]&quot; SITE &quot;H4&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[13]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>188</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(189): Semantic error in &quot;LOCATE COMP &quot;gn[13]&quot; SITE &quot;G5&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[13]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>189</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(190): Semantic error in &quot;LOCATE COMP &quot;gp[14]&quot; SITE &quot;U18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[14]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>190</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(191): Semantic error in &quot;LOCATE COMP &quot;gn[14]&quot; SITE &quot;U17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[14]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>191</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(192): Semantic error in &quot;LOCATE COMP &quot;gp[15]&quot; SITE &quot;N17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[15]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>192</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(193): Semantic error in &quot;LOCATE COMP &quot;gn[15]&quot; SITE &quot;P16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[15]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>193</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(194): Semantic error in &quot;LOCATE COMP &quot;gp[16]&quot; SITE &quot;N16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[16]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>194</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(195): Semantic error in &quot;LOCATE COMP &quot;gn[16]&quot; SITE &quot;M17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[16]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>195</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(196): Semantic error in &quot;LOCATE COMP &quot;gp[17]&quot; SITE &quot;L16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[17]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>196</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(197): Semantic error in &quot;LOCATE COMP &quot;gn[17]&quot; SITE &quot;L17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[17]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>197</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(198): Semantic error in &quot;LOCATE COMP &quot;gp[18]&quot; SITE &quot;H18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[18]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>198</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(199): Semantic error in &quot;LOCATE COMP &quot;gn[18]&quot; SITE &quot;H17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[18]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>199</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(200): Semantic error in &quot;LOCATE COMP &quot;gp[19]&quot; SITE &quot;F17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[19]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>200</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(201): Semantic error in &quot;LOCATE COMP &quot;gn[19]&quot; SITE &quot;G18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[19]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>201</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(202): Semantic error in &quot;LOCATE COMP &quot;gp[20]&quot; SITE &quot;D18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[20]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>202</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(203): Semantic error in &quot;LOCATE COMP &quot;gn[20]&quot; SITE &quot;E17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[20]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>203</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(204): Semantic error in &quot;LOCATE COMP &quot;gp[21]&quot; SITE &quot;C18&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[21]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>204</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(205): Semantic error in &quot;LOCATE COMP &quot;gn[21]&quot; SITE &quot;D17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[21]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>205</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(206): Semantic error in &quot;LOCATE COMP &quot;gp[22]&quot; SITE &quot;B15&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[22]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(207): Semantic error in &quot;LOCATE COMP &quot;gn[22]&quot; SITE &quot;C15&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[22]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>207</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(208): Semantic error in &quot;LOCATE COMP &quot;gp[23]&quot; SITE &quot;B17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[23]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>208</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(209): Semantic error in &quot;LOCATE COMP &quot;gn[23]&quot; SITE &quot;C17&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[23]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>209</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(210): Semantic error in &quot;LOCATE COMP &quot;gp[24]&quot; SITE &quot;C16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[24]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>210</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(211): Semantic error in &quot;LOCATE COMP &quot;gn[24]&quot; SITE &quot;D16&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[24]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>211</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(212): Semantic error in &quot;LOCATE COMP &quot;gp[25]&quot; SITE &quot;D14&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[25]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>212</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(213): Semantic error in &quot;LOCATE COMP &quot;gn[25]&quot; SITE &quot;E14&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[25]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>213</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(214): Semantic error in &quot;LOCATE COMP &quot;gp[26]&quot; SITE &quot;B13&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[26]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>214</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(215): Semantic error in &quot;LOCATE COMP &quot;gn[26]&quot; SITE &quot;C13&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[26]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>215</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(216): Semantic error in &quot;LOCATE COMP &quot;gp[27]&quot; SITE &quot;D13&quot; ;&quot;: </Dynamic>
+            <Dynamic>gp[27]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>216</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(217): Semantic error in &quot;LOCATE COMP &quot;gn[27]&quot; SITE &quot;E13&quot; ;&quot;: </Dynamic>
+            <Dynamic>gn[27]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>217</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(220): Semantic error in &quot;LOCATE COMP &quot;user_programn&quot; SITE &quot;M4&quot; ;&quot;: </Dynamic>
+            <Dynamic>user_programn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>220</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(221): Semantic error in &quot;IOBUF PORT &quot;user_programn&quot; PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>user_programn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>221</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(224): Semantic error in &quot;LOCATE COMP &quot;shutdown&quot; SITE &quot;G16&quot; ;&quot;: </Dynamic>
+            <Dynamic>shutdown</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>224</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(225): Semantic error in &quot;IOBUF PORT &quot;shutdown&quot; PULLMODE=DOWN IO_TYPE=LVCMOS33 DRIVE=4 ;&quot;: </Dynamic>
+            <Dynamic>shutdown</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>225</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(228): Semantic error in &quot;LOCATE COMP &quot;oled_clk&quot; SITE &quot;P4&quot; ;&quot;: </Dynamic>
+            <Dynamic>oled_clk</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>228</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(229): Semantic error in &quot;LOCATE COMP &quot;oled_mosi&quot; SITE &quot;P3&quot; ;&quot;: </Dynamic>
+            <Dynamic>oled_mosi</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>229</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(230): Semantic error in &quot;LOCATE COMP &quot;oled_dc&quot; SITE &quot;P1&quot; ;&quot;: </Dynamic>
+            <Dynamic>oled_dc</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>230</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(231): Semantic error in &quot;LOCATE COMP &quot;oled_resn&quot; SITE &quot;P2&quot; ;&quot;: </Dynamic>
+            <Dynamic>oled_resn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>231</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(232): Semantic error in &quot;LOCATE COMP &quot;oled_csn&quot; SITE &quot;N2&quot; ;&quot;: </Dynamic>
+            <Dynamic>oled_csn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>232</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(244): Semantic error in &quot;IOBUF PORT &quot;sw[0]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>244</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(245): Semantic error in &quot;IOBUF PORT &quot;sw[1]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>245</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(246): Semantic error in &quot;IOBUF PORT &quot;sw[2]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>246</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(247): Semantic error in &quot;IOBUF PORT &quot;sw[3]&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>sw[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>247</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(248): Semantic error in &quot;IOBUF PORT &quot;btn_pwr&quot; PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>btn_pwr</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>248</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(250): Semantic error in &quot;IOBUF PORT &quot;btn_f2&quot; PULLMODE=DOWN ;&quot;: </Dynamic>
+            <Dynamic>btn_f2</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>250</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(255): Semantic error in &quot;IOBUF PORT &quot;flash_csn&quot; PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>flash_csn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>255</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(256): Semantic error in &quot;IOBUF PORT &quot;flash_holdn&quot; PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>flash_holdn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>256</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(257): Semantic error in &quot;IOBUF PORT &quot;flash_wpn&quot; PULLMODE=UP ;&quot;: </Dynamic>
+            <Dynamic>flash_wpn</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>257</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(258): Semantic error in &quot;IOBUF PORT &quot;p_ring2[3]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>258</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(259): Semantic error in &quot;IOBUF PORT &quot;p_ring2[2]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>259</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(260): Semantic error in &quot;IOBUF PORT &quot;p_ring2[1]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>260</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(261): Semantic error in &quot;IOBUF PORT &quot;p_ring2[0]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring2[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>261</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(262): Semantic error in &quot;IOBUF PORT &quot;p_ring[3]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>262</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(263): Semantic error in &quot;IOBUF PORT &quot;p_ring[2]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>263</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(264): Semantic error in &quot;IOBUF PORT &quot;p_ring[1]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>264</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(265): Semantic error in &quot;IOBUF PORT &quot;p_ring[0]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_ring[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>265</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(266): Semantic error in &quot;IOBUF PORT &quot;p_tip[3]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_tip[3]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>266</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(267): Semantic error in &quot;IOBUF PORT &quot;p_tip[2]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_tip[2]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>267</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(268): Semantic error in &quot;IOBUF PORT &quot;p_tip[1]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_tip[1]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>268</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf(269): Semantic error in &quot;IOBUF PORT &quot;p_tip[0]&quot; DRIVE=16 ;&quot;: </Dynamic>
+            <Dynamic>p_tip[0]</Dynamic>
+            <Navigation>C:/DL-labosi/lab2/lab2pravi/ulx3s.lpf</Navigation>
+            <Navigation>269</Navigation>
+        </Message>
+        <Message>
+            <ID>52101275</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>DRIVE</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>clk_25m_pad/IOBUF</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C_debounce_dly</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C_baudrate</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C_clk_freq</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v&quot;:23:5:23:7|Removing wire N_1, as there is no assignment to it.</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing wire N_1, as there is no assignment to it.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL318 :&quot;C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v&quot;:10:13:10:15|*Output led has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.</Dynamic>
+            <Navigation>CL318</Navigation>
+            <Navigation>C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>*Output led has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v&quot;:23:5:23:7|*Input N_1 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>*Input N_1 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL156 :&quot;C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v&quot;:46:26:46:65|*Input un1_N_49[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</Dynamic>
+            <Navigation>CL156</Navigation>
+            <Navigation>C:\DL-labosi\lab2\lab2pravi\impl1\lab2.v</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>*Input un1_N_49[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd&quot;:78:1:78:2|Found inferred clock lab2|clk_25m which controls 74 sequential elements including I1.R_tx_ser[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found inferred clock lab2|clk_25m which controls 74 sequential elements including I1.R_tx_ser[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO129 :&quot;c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd&quot;:78:1:78:2|Sequential instance I1.R_byte_old[7] is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Sequential instance I1.R_byte_old[7] is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\dl-labosi\lab2\lab2pravi\impl1\lab2.v&quot;:37:4:37:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\dl-labosi\lab2\lab2pravi\impl1\lab2.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\dl-labosi\lab2\lab2pravi\impl1\lab2.v&quot;:28:4:28:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\dl-labosi\lab2\lab2pravi\impl1\lab2.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock lab2|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock lab2|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

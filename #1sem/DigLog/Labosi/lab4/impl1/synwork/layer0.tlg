@@ -1,0 +1,9 @@
+@N: CD630 :"C:\DL-labosi\lab4\count.vhd":5:7:5:11|Synthesizing work.count.x.
+Post processing for work.count.x
+Running optimization stage 1 on count .......
+Running optimization stage 2 on count .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\DL-labosi\lab4\impl1\synwork\layer0.rt.csv
+

@@ -1,0 +1,5 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: morse Architecture: mealy, 0h:00m:00s,     79 MB
+work, Entity: serial_tx Architecture: behavioral, 0h:00m:00s,     79 MB
+work, Entity: tonegen Architecture: x, 0h:00m:00s,     84 MB
+work, Entity: morse_top Architecture: struct, 0h:00m:00s,     84 MB

@@ -1,0 +1,23 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: FX493 |Applying initial value "111111111" on instance serializer.R_tx_ser[8:0].
+@N: MO231 :"c:\dl-labosi\lab5\serial_tx.vhd":78:1:78:2|Found counter in view:work.serial_tx(behavioral) instance R_tx_tickcnt[3:0] 
+@N: MF179 :"c:\dl-labosi\lab5\serial_tx.vhd":81:8:81:28|Found 8 by 8 bit equality operator ('==') un1_byte_in (in view: work.serial_tx(behavioral))
+@N: BN362 :"c:\dl-labosi\lab5\serial_tx.vhd":78:1:78:2|Removing sequential instance serializer.R_byte_old[6] (in view: work.morse_top(struct)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance tonegen.R_tone_incr_new_dummy[14] (in view: work.morse_top(struct)) because it does not drive other instances.
+@N: FX271 :"c:\dl-labosi\lab5\morse_toplevel.vhd":51:4:51:8|Replicating instance R_led[2] (in view: work.morse_top(struct)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\dl-labosi\lab5\morse_toplevel.vhd":51:4:51:8|Replicating instance R_led[3] (in view: work.morse_top(struct)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\dl-labosi\lab5\labos.vhd":31:1:31:2|Replicating instance fsm.R_timer[1] (in view: work.morse_top(struct)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\dl-labosi\lab5\labos.vhd":31:1:31:2|Replicating instance fsm.R_timer[2] (in view: work.morse_top(struct)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\dl-labosi\lab5\morse_toplevel.vhd":51:4:51:8|Replicating instance R_led[1] (in view: work.morse_top(struct)) with 13 loads 2 times to improve timing.
+@N: FX271 :"c:\dl-labosi\lab5\morse_toplevel.vhd":51:4:51:8|Replicating instance R_led[0] (in view: work.morse_top(struct)) with 11 loads 2 times to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\DL-labosi\lab5\impl1\labos5_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock morse_top|R_symbol_clk_derived_clock with period 5.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.

@@ -1,0 +1,297 @@
+# Wed Dec  6 18:37:32 2023
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "111111111" on instance serializer.R_tx_ser[8:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+@N: MO231 :"c:\dl-labosi\lab3\serial_tx.vhd":78:1:78:2|Found counter in view:work.serial_tx(behavioral) instance R_tx_tickcnt[3:0] 
+@W: MO129 :"c:\dl-labosi\lab3\serial_tx.vhd":78:1:78:2|Sequential instance serializer.R_byte_old[7] is reduced to a combinational gate by constant propagation.
+@N: MF179 :"c:\dl-labosi\lab3\serial_tx.vhd":81:8:81:28|Found 8 by 8 bit equality operator ('==') un1_byte_in (in view: work.serial_tx(behavioral))
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.05ns		  79 /        73
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 143MB)
+
+Writing Analyst data base C:\DL-labosi\lab3\impl1\synwork\lab3_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\DL-labosi\lab3\impl1\lab3_impl1.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 148MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+@W: MT420 |Found inferred clock slova|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec  6 18:37:34 2023
+#
+
+
+Top view:               slova
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.661
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+slova|clk_25m      200.0 MHz     230.5 MHz     5.000         4.339         0.661     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+slova|clk_25m  slova|clk_25m  |  5.000       0.661  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: slova|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                     Arrival          
+Instance                          Reference         Type        Pin     Net                    Time        Slack
+                                  Clock                                                                         
+----------------------------------------------------------------------------------------------------------------
+serializer.R_tx_phase[2]          slova|clk_25m     FD1S3IX     Q       R_tx_phase[2]          0.985       0.661
+serializer.R_tx_phase[3]          slova|clk_25m     FD1S3IX     Q       R_tx_phase[3]          0.955       0.691
+serializer.R_debounce_cnt[8]      slova|clk_25m     FD1P3IX     Q       R_debounce_cnt[8]      0.907       0.937
+serializer.R_debounce_cnt[9]      slova|clk_25m     FD1P3JX     Q       R_debounce_cnt[9]      0.907       0.937
+serializer.R_debounce_cnt[10]     slova|clk_25m     FD1P3IX     Q       R_debounce_cnt[10]     0.907       0.937
+serializer.R_debounce_cnt[11]     slova|clk_25m     FD1P3IX     Q       R_debounce_cnt[11]     0.907       0.937
+serializer.R_debounce_cnt[12]     slova|clk_25m     FD1P3IX     Q       R_debounce_cnt[12]     0.907       0.937
+serializer.R_debounce_cnt[13]     slova|clk_25m     FD1P3IX     Q       R_debounce_cnt[13]     0.907       0.937
+serializer.R_tx_phase[0]          slova|clk_25m     FD1S3IX     Q       R_tx_phase[0]          1.009       1.243
+serializer.R_tx_phase[1]          slova|clk_25m     FD1S3IX     Q       R_tx_phase[1]          1.009       1.243
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                      Required          
+Instance                     Reference         Type        Pin     Net                     Time         Slack
+                             Clock                                                                           
+-------------------------------------------------------------------------------------------------------------
+serializer.R_tx_phase[0]     slova|clk_25m     FD1S3IX     D       R_tx_phase_7[0]         4.946        0.661
+serializer.R_tx_phase[1]     slova|clk_25m     FD1S3IX     D       R_tx_phase_7[1]         4.946        0.661
+serializer.R_tx_phase[2]     slova|clk_25m     FD1S3IX     D       R_tx_phase_7[2]         4.946        0.661
+serializer.R_tx_phase[3]     slova|clk_25m     FD1S3IX     D       R_tx_phase_7[3]         4.946        0.661
+serializer.R_tx_ser[1]       slova|clk_25m     FD1P3AY     SP      R_tx_ser_1_sqmuxa_i     4.806        0.852
+serializer.R_tx_ser[2]       slova|clk_25m     FD1P3AY     SP      R_tx_ser_1_sqmuxa_i     4.806        0.852
+serializer.R_tx_ser[3]       slova|clk_25m     FD1P3AY     SP      R_tx_ser_1_sqmuxa_i     4.806        0.852
+serializer.R_tx_ser[4]       slova|clk_25m     FD1P3AY     SP      R_tx_ser_1_sqmuxa_i     4.806        0.852
+serializer.R_tx_ser[5]       slova|clk_25m     FD1P3AY     SP      R_tx_ser_1_sqmuxa_i     4.806        0.852
+serializer.R_tx_ser[6]       slova|clk_25m     FD1P3AY     SP      R_tx_ser_1_sqmuxa_i     4.806        0.852
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      4.285
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.661
+
+    Number of logic level(s):                5
+    Starting point:                          serializer.R_tx_phase[2] / Q
+    Ending point:                            serializer.R_tx_phase[2] / D
+    The start point is clocked by            slova|clk_25m [rising] on pin CK
+    The end   point is clocked by            slova|clk_25m [rising] on pin CK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+serializer.R_tx_phase[2]               FD1S3IX      Q        Out     0.985     0.985       -         
+R_tx_phase[2]                          Net          -        -       -         -           4         
+serializer.un1_R_tx_phase_1_0          ORCALUT4     A        In      0.000     0.985       -         
+serializer.un1_R_tx_phase_1_0          ORCALUT4     Z        Out     0.606     1.591       -         
+un1_R_tx_phase_1_0                     Net          -        -       -         -           1         
+serializer.r_tx_tickcnt12              ORCALUT4     D        In      0.000     1.591       -         
+serializer.r_tx_tickcnt12              ORCALUT4     Z        Out     0.828     2.419       -         
+r_tx_tickcnt12                         Net          -        -       -         -           16        
+serializer.R_tx_ser_0_sqmuxa           ORCALUT4     A        In      0.000     2.419       -         
+serializer.R_tx_ser_0_sqmuxa           ORCALUT4     Z        Out     0.738     3.157       -         
+R_tx_ser_0_sqmuxa                      Net          -        -       -         -           4         
+serializer.un1_R_tx_ser_0_sqmuxa_1     ORCALUT4     A        In      0.000     3.157       -         
+serializer.un1_R_tx_ser_0_sqmuxa_1     ORCALUT4     Z        Out     0.738     3.895       -         
+un1_R_tx_ser_0_sqmuxa_1                Net          -        -       -         -           4         
+serializer.R_tx_phase_7[2]             ORCALUT4     D        In      0.000     3.895       -         
+serializer.R_tx_phase_7[2]             ORCALUT4     Z        Out     0.390     4.285       -         
+R_tx_phase_7[2]                        Net          -        -       -         -           1         
+serializer.R_tx_phase[2]               FD1S3IX      D        In      0.000     4.285       -         
+=====================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_12f-6
+
+Register bits: 73 of 12096 (1%)
+PIC Latch:       0
+I/O cells:       19
+
+
+Details:
+CCU2C:          29
+FD1P3AX:        3
+FD1P3AY:        8
+FD1P3IX:        24
+FD1P3JX:        7
+FD1S3AX:        25
+FD1S3IX:        5
+GSR:            1
+IB:             10
+INV:            1
+OB:             9
+OFS1P3BX:       1
+ORCALUT4:       78
+PUR:            1
+VHI:            2
+VLO:            1
+false:          1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 32MB peak: 148MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec  6 18:37:34 2023
+
+###########################################################]

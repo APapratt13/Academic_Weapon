@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\DL-labosi\lab5\impl1\synwork\labos5_impl1_comp.srs  -top  morse_top  -hdllog  C:\DL-labosi\lab5\impl1\synlog\labos5_impl1_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\DL-labosi\lab5\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work C:\DL-labosi\lab5\serial_tx.vhd -lib work C:\DL-labosi\lab5\tonegen.vhd -lib work C:\DL-labosi\lab5\labos.vhd -lib work C:\DL-labosi\lab5\morse_toplevel.vhd  -jobname  "compiler" 
+relcom:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\labos5_impl1_comp.srs -top morse_top -hdllog ..\synlog\labos5_impl1_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd -lib work ..\..\serial_tx.vhd -lib work ..\..\tonegen.vhd -lib work ..\..\labos.vhd -lib work ..\..\morse_toplevel.vhd -jobname "compiler"
+rc:0 success:1 runtime:2
+file:..\synwork\labos5_impl1_comp.srs|io:o|time:1705069276|size:11939|exec:0|csum:
+file:..\synlog\labos5_impl1_compiler.srr|io:o|time:1705069276|size:5440|exec:0|csum:
+file:..\..\..\..\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp5u.vhd|io:i|time:1542241930|size:95858|exec:0|csum:09A233CA3378C2C7D322DAC246A99AC8
+file:..\..\serial_tx.vhd|io:i|time:1704449454|size:3553|exec:0|csum:0E9769481876EA54B42FC15DC4A89C01
+file:..\..\tonegen.vhd|io:i|time:1704449448|size:1723|exec:0|csum:0F206D27C40701524C96BED14498D567
+file:..\..\labos.vhd|io:i|time:1705069269|size:2426|exec:0|csum:5250893BE53E73D96D16007B0099AFB7
+file:..\..\morse_toplevel.vhd|io:i|time:1704999821|size:2577|exec:0|csum:A6009865E2376180140F9F464DAB4E60
+file:..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\c_hdl.exe|io:i|time:1554106694|size:5681664|exec:1|csum:39598EA786684F7CB53832C08B4CCDF5

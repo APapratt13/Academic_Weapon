@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/19/2024 13:16:44
+#Project Location: C:/DL-labosi/labos6; Project name: gracia6
+prj_project open "C:/DL-labosi/labos6/gracia6.ldf"
+prj_project close
+#Stop recording: 1/19/2024 13:17:09

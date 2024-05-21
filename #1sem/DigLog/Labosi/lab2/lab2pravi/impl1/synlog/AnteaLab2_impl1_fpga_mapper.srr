@@ -1,0 +1,395 @@
+# Fri Nov 10 15:24:04 2023
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "111111111" on instance I1.R_tx_ser[8:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: MO231 :"c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd":78:1:78:2|Found counter in view:work.serial_tx(behavioral) instance R_tx_tickcnt[3:0] 
+@W: MO129 :"c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd":78:1:78:2|Sequential instance I1.R_byte_old[7] is reduced to a combinational gate by constant propagation.
+@N: MF179 :"c:\dl-labosi\lab2\lab2pravi\serial_tx.vhd":81:8:81:28|Found 8 by 8 bit equality operator ('==') un1_byte_in (in view: work.serial_tx(behavioral))
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.05ns		  44 /        73
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 142MB)
+
+Writing Analyst data base C:\DL-labosi\lab2\lab2pravi\impl1\synwork\AnteaLab2_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\DL-labosi\lab2\lab2pravi\impl1\AnteaLab2_impl1.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+@W: MT246 :"c:\dl-labosi\lab2\lab2pravi\impl1\lab2.v":37:4:37:6|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\dl-labosi\lab2\lab2pravi\impl1\lab2.v":28:4:28:6|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock lab2|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 10 15:24:06 2023
+#
+
+
+Top view:               lab2
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.661
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+lab2|clk_25m       200.0 MHz     230.5 MHz     5.000         4.339         0.661     inferred     Inferred_clkgroup_0
+System             200.0 MHz     500.0 MHz     5.000         2.000         3.000     system       system_clkgroup    
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+System        System        |  5.000       5.000  |  No paths    -      |  No paths    -      |  No paths    -    
+System        lab2|clk_25m  |  5.000       3.000  |  No paths    -      |  No paths    -      |  No paths    -    
+lab2|clk_25m  lab2|clk_25m  |  5.000       0.661  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: lab2|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                    Arrival          
+Instance                  Reference        Type        Pin     Net                    Time        Slack
+                          Clock                                                                        
+-------------------------------------------------------------------------------------------------------
+I1.R_tx_phase[2]          lab2|clk_25m     FD1S3IX     Q       R_tx_phase[2]          0.985       0.661
+I1.R_tx_phase[3]          lab2|clk_25m     FD1S3IX     Q       R_tx_phase[3]          0.955       0.691
+I1.R_debounce_cnt[8]      lab2|clk_25m     FD1P3IX     Q       R_debounce_cnt[8]      0.907       0.937
+I1.R_debounce_cnt[9]      lab2|clk_25m     FD1P3JX     Q       R_debounce_cnt[9]      0.907       0.937
+I1.R_debounce_cnt[10]     lab2|clk_25m     FD1P3IX     Q       R_debounce_cnt[10]     0.907       0.937
+I1.R_debounce_cnt[11]     lab2|clk_25m     FD1P3IX     Q       R_debounce_cnt[11]     0.907       0.937
+I1.R_debounce_cnt[12]     lab2|clk_25m     FD1P3IX     Q       R_debounce_cnt[12]     0.907       0.937
+I1.R_debounce_cnt[13]     lab2|clk_25m     FD1P3IX     Q       R_debounce_cnt[13]     0.907       0.937
+I1.R_tx_phase[0]          lab2|clk_25m     FD1S3IX     Q       R_tx_phase[0]          1.009       1.243
+I1.R_tx_phase[1]          lab2|clk_25m     FD1S3IX     Q       R_tx_phase[1]          1.009       1.243
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                         Required          
+Instance             Reference        Type         Pin     Net                        Time         Slack
+                     Clock                                                                              
+--------------------------------------------------------------------------------------------------------
+I1.R_tx_phase[0]     lab2|clk_25m     FD1S3IX      D       R_tx_phase_7[0]            4.946        0.661
+I1.R_tx_phase[1]     lab2|clk_25m     FD1S3IX      D       R_tx_phase_7[1]            4.946        0.661
+I1.R_tx_phase[2]     lab2|clk_25m     FD1S3IX      D       R_tx_phase_7[2]            4.946        0.661
+I1.R_tx_phase[3]     lab2|clk_25m     FD1S3IX      D       R_tx_phase_7[3]            4.946        0.661
+I1_R_tx_serio[0]     lab2|clk_25m     OFS1P3BX     SP      I1.R_tx_ser_1_sqmuxa_i     4.806        0.852
+I1.R_tx_ser[1]       lab2|clk_25m     FD1P3AY      SP      R_tx_ser_1_sqmuxa_i        4.806        0.852
+I1.R_tx_ser[2]       lab2|clk_25m     FD1P3AY      SP      R_tx_ser_1_sqmuxa_i        4.806        0.852
+I1.R_tx_ser[3]       lab2|clk_25m     FD1P3AY      SP      R_tx_ser_1_sqmuxa_i        4.806        0.852
+I1.R_tx_ser[4]       lab2|clk_25m     FD1P3AY      SP      R_tx_ser_1_sqmuxa_i        4.806        0.852
+I1.R_tx_ser[5]       lab2|clk_25m     FD1P3AY      SP      R_tx_ser_1_sqmuxa_i        4.806        0.852
+========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      4.285
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.661
+
+    Number of logic level(s):                5
+    Starting point:                          I1.R_tx_phase[2] / Q
+    Ending point:                            I1.R_tx_phase[2] / D
+    The start point is clocked by            lab2|clk_25m [rising] on pin CK
+    The end   point is clocked by            lab2|clk_25m [rising] on pin CK
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                           Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+I1.R_tx_phase[2]               FD1S3IX      Q        Out     0.985     0.985       -         
+R_tx_phase[2]                  Net          -        -       -         -           4         
+I1.un1_R_tx_phase_1_0          ORCALUT4     A        In      0.000     0.985       -         
+I1.un1_R_tx_phase_1_0          ORCALUT4     Z        Out     0.606     1.591       -         
+un1_R_tx_phase_1_0             Net          -        -       -         -           1         
+I1.r_tx_tickcnt12              ORCALUT4     D        In      0.000     1.591       -         
+I1.r_tx_tickcnt12              ORCALUT4     Z        Out     0.828     2.419       -         
+r_tx_tickcnt12                 Net          -        -       -         -           16        
+I1.R_tx_ser_0_sqmuxa           ORCALUT4     A        In      0.000     2.419       -         
+I1.R_tx_ser_0_sqmuxa           ORCALUT4     Z        Out     0.738     3.157       -         
+R_tx_ser_0_sqmuxa              Net          -        -       -         -           4         
+I1.un1_R_tx_ser_0_sqmuxa_1     ORCALUT4     A        In      0.000     3.157       -         
+I1.un1_R_tx_ser_0_sqmuxa_1     ORCALUT4     Z        Out     0.738     3.895       -         
+un1_R_tx_ser_0_sqmuxa_1        Net          -        -       -         -           4         
+I1.R_tx_phase_7[2]             ORCALUT4     D        In      0.000     3.895       -         
+I1.R_tx_phase_7[2]             ORCALUT4     Z        Out     0.390     4.285       -         
+R_tx_phase_7[2]                Net          -        -       -         -           1         
+I1.R_tx_phase[2]               FD1S3IX      D        In      0.000     4.285       -         
+=============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                Arrival          
+Instance     Reference     Type     Pin     Net      Time        Slack
+             Clock                                                    
+----------------------------------------------------------------------
+I52          System        OR2      Z       N_43     0.000       3.000
+I53          System        OR4      Z       N_49     0.000       3.000
+I43          System        OR3      Z       N_47     0.000       3.061
+I45          System        OR2      Z       N_56     0.000       3.061
+I47          System        AND2     Z       N_53     0.000       3.061
+I49          System        OR3      Z       N_52     0.000       3.061
+I46          System        OR4      Z       N_48     0.000       3.882
+I44          System        AND2     Z       N_55     0.000       5.000
+I50          System        AND2     Z       N_50     0.000       5.000
+I51          System        AND2     Z       N_51     0.000       5.000
+======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                            Required          
+Instance                 Reference     Type        Pin     Net               Time         Slack
+                         Clock                                                                 
+-----------------------------------------------------------------------------------------------
+I1.R_debounce_cnt[0]     System        FD1S3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[1]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[2]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[3]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[4]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[5]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[6]     System        FD1P3JX     PD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[7]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[8]     System        FD1P3IX     CD      un1_byte_in_i     4.919        3.000
+I1.R_debounce_cnt[9]     System        FD1P3JX     PD      un1_byte_in_i     4.919        3.000
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.081
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.919
+
+    - Propagation time:                      1.919
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 3.000
+
+    Number of logic level(s):                3
+    Starting point:                          I52 / Z
+    Ending point:                            I1.R_debounce_cnt[0] / CD
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab2|clk_25m [rising] on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+I52                           OR2         Z        Out     0.000     0.000       -         
+N_43                          Net         -        -       -         -           3         
+I1.un1_byte_in_0_I_1_0        CCU2C       C1       In      0.000     0.000       -         
+I1.un1_byte_in_0_I_1_0        CCU2C       COUT     Out     0.900     0.900       -         
+un1_byte_in_0_data_tmp[0]     Net         -        -       -         -           1         
+I1.un1_byte_in_0_I_9_0        CCU2C       CIN      In      0.000     0.900       -         
+I1.un1_byte_in_0_I_9_0        CCU2C       COUT     Out     0.061     0.961       -         
+un1_byte_in_0_data_tmp[2]     Net         -        -       -         -           1         
+I1.un1_byte_in_0_I_21_0       CCU2C       CIN      In      0.000     0.961       -         
+I1.un1_byte_in_0_I_21_0       CCU2C       S1       Out     0.958     1.919       -         
+un1_byte_in_i                 Net         -        -       -         -           32        
+I1.R_debounce_cnt[0]          FD1S3IX     CD       In      0.000     1.919       -         
+===========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_12f-6
+
+Register bits: 73 of 12096 (1%)
+PIC Latch:       0
+I/O cells:       15
+
+
+Details:
+AND2:           4
+CCU2C:          29
+FD1P3AX:        3
+FD1P3AY:        8
+FD1P3IX:        24
+FD1P3JX:        7
+FD1S3AX:        25
+FD1S3IX:        5
+GSR:            1
+IB:             6
+INV:            2
+OB:             9
+OFS1P3BX:       1
+OR2:            2
+OR3:            2
+OR4:            2
+ORCALUT4:       43
+PUR:            1
+VHI:            2
+VLO:            1
+false:          1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 32MB peak: 147MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 10 15:24:06 2023
+
+###########################################################]

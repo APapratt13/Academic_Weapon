@@ -1,0 +1,2 @@
+ckid0_0:@|S:clk_25m@|E:I_upravljac.R_debounce_cnt[31:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:I_upravljac.R_keys_last[3:0].Q[3]@|E:I_regfile.R3[3:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1

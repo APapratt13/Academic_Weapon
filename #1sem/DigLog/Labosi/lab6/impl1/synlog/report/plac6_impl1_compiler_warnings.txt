@@ -1,0 +1,3 @@
+@W: CD638 :"C:\DL-labosi\lab6\datapath.vhd":20:25:20:29|Signal addrw is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\DL-labosi\lab6\datapath.vhd":24:17:24:17|Signal z is undriven. Either assign the signal a value or remove the signal declaration.
+

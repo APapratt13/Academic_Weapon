@@ -1,0 +1,697 @@
+# Fri Jan 19 10:11:21 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: PAPRATT
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.62ns		  84 /        59
+   2		0h:00m:00s		    -0.62ns		  83 /        59
+   3		0h:00m:00s		    -0.62ns		  83 /        59
+   4		0h:00m:00s		    -0.84ns		  83 /        59
+   5		0h:00m:00s		    -0.62ns		  83 /        59
+   6		0h:00m:00s		    -0.84ns		  83 /        59
+@N: FX271 :"c:\dl-labosi\lab6\upravljac.vhd":29:1:29:2|Replicating instance I_upravljac.R_AddrB[0] (in view: work.datapath(x)) with 11 loads 1 time to improve timing.
+@N: FX271 :"c:\dl-labosi\lab6\aloo.vhd":43:3:43:5|Replicating instance I_alu.g0_1 (in view: work.datapath(x)) with 4 loads 3 time(s) to improve timing.
+@N: FX271 :"c:\dl-labosi\lab6\aloo.vhd":43:3:43:5|Replicating instance I_alu.g0 (in view: work.datapath(x)) with 4 loads 3 time(s) to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 7 LUTs via timing driven replication
+
+   7		0h:00m:00s		     0.15ns		  93 /        60
+   8		0h:00m:00s		     0.31ns		  95 /        60
+   9		0h:00m:00s		     0.14ns		  94 /        60
+  10		0h:00m:00s		     0.57ns		  95 /        60
+  11		0h:00m:00s		     0.31ns		  97 /        60
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 148MB)
+
+Writing Analyst data base C:\DL-labosi\lab6\impl1\synwork\plac6_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 149MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\DL-labosi\lab6\impl1\plac6_impl1.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 153MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 153MB)
+
+@W: MT420 |Found inferred clock datapath|clk_25m with period 5.00ns. Please declare a user-defined clock on port clk_25m.
+@N: MT615 |Found clock upravljac|R_keys_last_derived_clock[3] with period 5.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 19 10:11:24 2024
+#
+
+
+Top view:               datapath
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.337
+
+                                           Requested     Estimated     Requested     Estimated                Clock                               Clock              
+Starting Clock                             Frequency     Frequency     Period        Period        Slack      Type                                Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+datapath|clk_25m                           200.0 MHz     187.4 MHz     5.000         5.337         -0.337     inferred                            Inferred_clkgroup_0
+upravljac|R_keys_last_derived_clock[3]     200.0 MHz     187.4 MHz     5.000         5.337         4.831      derived (from datapath|clk_25m)     Inferred_clkgroup_0
+System                                     200.0 MHz     415.5 MHz     5.000         2.407         2.593      system                              system_clkgroup    
+=====================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  upravljac|R_keys_last_derived_clock[3]  |  5.000       2.593   |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m                        System                                  |  5.000       2.634   |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m                        datapath|clk_25m                        |  5.000       1.526   |  No paths    -      |  No paths    -      |  No paths    -    
+datapath|clk_25m                        upravljac|R_keys_last_derived_clock[3]  |  5.000       -0.337  |  No paths    -      |  No paths    -      |  No paths    -    
+upravljac|R_keys_last_derived_clock[3]  System                                  |  5.000       2.802   |  No paths    -      |  No paths    -      |  No paths    -    
+upravljac|R_keys_last_derived_clock[3]  upravljac|R_keys_last_derived_clock[3]  |  5.000       4.831   |  No paths    -      |  No paths    -      |  No paths    -    
+=======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: datapath|clk_25m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                       Arrival           
+Instance                          Reference            Type        Pin     Net                   Time        Slack 
+                                  Clock                                                                            
+-------------------------------------------------------------------------------------------------------------------
+I_upravljac.R_AddrB[1]            datapath|clk_25m     FD1S3AX     Q       AddrB[1]              1.075       -0.337
+I_upravljac.R_AddrA[1]            datapath|clk_25m     FD1S3AX     Q       AddrA[1]              1.066       -0.250
+I_upravljac.R_AddrB_fast[0]       datapath|clk_25m     FD1S3AX     Q       R_AddrB_fast[0]       0.985       -0.067
+I_upravljac.R_AddrA[0]            datapath|clk_25m     FD1S3AX     Q       AddrA[0]              1.051       -0.055
+I_upravljac.R_AddrB[0]            datapath|clk_25m     FD1S3AX     Q       AddrB[0]              1.048       0.524 
+I_upravljac.R_ALUOp[0]            datapath|clk_25m     FD1S3AX     Q       ALUOp[0]              1.103       1.490 
+I_upravljac.R_ALUOp[1]            datapath|clk_25m     FD1S3AX     Q       ALUOp[1]              1.075       1.518 
+I_upravljac.R_debounce_cnt[0]     datapath|clk_25m     FD1S3IX     Q       R_debounce_cnt[0]     0.907       1.526 
+I_upravljac.R_debounce_cnt[1]     datapath|clk_25m     FD1S3IX     Q       R_debounce_cnt[1]     0.853       1.641 
+I_upravljac.R_debounce_cnt[2]     datapath|clk_25m     FD1S3IX     Q       R_debounce_cnt[2]     0.853       1.641 
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                              Required           
+Instance            Reference            Type        Pin     Net          Time         Slack 
+                    Clock                                                                    
+---------------------------------------------------------------------------------------------
+I_regfile.R0[1]     datapath|clk_25m     FD1P3AX     D       W[1]         4.946        -0.337
+I_regfile.R1[1]     datapath|clk_25m     FD1P3AX     D       W[1]         4.946        -0.337
+I_regfile.R2[1]     datapath|clk_25m     FD1P3AX     D       W[1]         4.946        -0.337
+I_regfile.R3[1]     datapath|clk_25m     FD1P3AX     D       W[1]         4.946        -0.337
+I_regfile.R0[0]     datapath|clk_25m     FD1P3AX     D       W[0]         4.946        -0.230
+I_regfile.R1[0]     datapath|clk_25m     FD1P3AX     D       W[0]         4.946        -0.230
+I_regfile.R2[0]     datapath|clk_25m     FD1P3AX     D       W[0]         4.946        -0.230
+I_regfile.R3[0]     datapath|clk_25m     FD1P3AX     D       W[0]         4.946        -0.230
+I_regfile.R0[3]     datapath|clk_25m     FD1P3AX     D       W_3_rep1     4.946        0.047 
+I_regfile.R1[3]     datapath|clk_25m     FD1P3AX     D       W_3_rep2     4.946        0.047 
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      5.283
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.337
+
+    Number of logic level(s):                8
+    Starting point:                          I_upravljac.R_AddrB[1] / Q
+    Ending point:                            I_regfile.R0[1] / D
+    The start point is clocked by            datapath|clk_25m [rising] on pin CK
+    The end   point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+I_upravljac.R_AddrB[1]     FD1S3AX      Q        Out     1.075     1.075       -         
+AddrB[1]                   Net          -        -       -         -           16        
+I_regfile.B_3_am[1]        ORCALUT4     A        In      0.000     1.075       -         
+I_regfile.B_3_am[1]        ORCALUT4     Z        Out     0.606     1.681       -         
+B_3_am[1]                  Net          -        -       -         -           1         
+I_regfile.B_3[1]           PFUMX        BLUT     In      0.000     1.681       -         
+I_regfile.B_3[1]           PFUMX        Z        Out     0.505     2.186       -         
+B[1]                       Net          -        -       -         -           3         
+I_upravljac.Bmux[1]        ORCALUT4     C        In      0.000     2.186       -         
+I_upravljac.Bmux[1]        ORCALUT4     Z        Out     0.180     2.366       -         
+Bmux[1]                    Net          -        -       -         -           12        
+I_alu.srll_7_N_2L1         ORCALUT4     C        In      0.000     2.366       -         
+I_alu.srll_7_N_2L1         ORCALUT4     Z        Out     0.606     2.972       -         
+srll_7_N_2L1               Net          -        -       -         -           1         
+I_alu.srll_7               ORCALUT4     D        In      0.000     2.972       -         
+I_alu.srll_7               ORCALUT4     Z        Out     0.606     3.578       -         
+N_6                        Net          -        -       -         -           1         
+I_alu.Z_5_am[1]            ORCALUT4     C        In      0.000     3.578       -         
+I_alu.Z_5_am[1]            ORCALUT4     Z        Out     0.606     4.184       -         
+Z_5_am[1]                  Net          -        -       -         -           1         
+I_alu.Z_5[1]               PFUMX        BLUT     In      0.000     4.184       -         
+I_alu.Z_5[1]               PFUMX        Z        Out     0.403     4.587       -         
+N_26                       Net          -        -       -         -           1         
+I_alu.Z_6[1]               L6MUX21      D1       In      0.000     4.587       -         
+I_alu.Z_6[1]               L6MUX21      Z        Out     0.696     5.283       -         
+W[1]                       Net          -        -       -         -           4         
+I_regfile.R0[1]            FD1P3AX      D        In      0.000     5.283       -         
+=========================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      5.283
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.337
+
+    Number of logic level(s):                8
+    Starting point:                          I_upravljac.R_AddrB[1] / Q
+    Ending point:                            I_regfile.R0[1] / D
+    The start point is clocked by            datapath|clk_25m [rising] on pin CK
+    The end   point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+I_upravljac.R_AddrB[1]     FD1S3AX      Q        Out     1.075     1.075       -         
+AddrB[1]                   Net          -        -       -         -           16        
+I_regfile.B_3_bm[1]        ORCALUT4     A        In      0.000     1.075       -         
+I_regfile.B_3_bm[1]        ORCALUT4     Z        Out     0.606     1.681       -         
+B_3_bm[1]                  Net          -        -       -         -           1         
+I_regfile.B_3[1]           PFUMX        ALUT     In      0.000     1.681       -         
+I_regfile.B_3[1]           PFUMX        Z        Out     0.505     2.186       -         
+B[1]                       Net          -        -       -         -           3         
+I_upravljac.Bmux[1]        ORCALUT4     C        In      0.000     2.186       -         
+I_upravljac.Bmux[1]        ORCALUT4     Z        Out     0.180     2.366       -         
+Bmux[1]                    Net          -        -       -         -           12        
+I_alu.srll_7_N_2L1         ORCALUT4     C        In      0.000     2.366       -         
+I_alu.srll_7_N_2L1         ORCALUT4     Z        Out     0.606     2.972       -         
+srll_7_N_2L1               Net          -        -       -         -           1         
+I_alu.srll_7               ORCALUT4     D        In      0.000     2.972       -         
+I_alu.srll_7               ORCALUT4     Z        Out     0.606     3.578       -         
+N_6                        Net          -        -       -         -           1         
+I_alu.Z_5_am[1]            ORCALUT4     C        In      0.000     3.578       -         
+I_alu.Z_5_am[1]            ORCALUT4     Z        Out     0.606     4.184       -         
+Z_5_am[1]                  Net          -        -       -         -           1         
+I_alu.Z_5[1]               PFUMX        BLUT     In      0.000     4.184       -         
+I_alu.Z_5[1]               PFUMX        Z        Out     0.403     4.587       -         
+N_26                       Net          -        -       -         -           1         
+I_alu.Z_6[1]               L6MUX21      D1       In      0.000     4.587       -         
+I_alu.Z_6[1]               L6MUX21      Z        Out     0.696     5.283       -         
+W[1]                       Net          -        -       -         -           4         
+I_regfile.R0[1]            FD1P3AX      D        In      0.000     5.283       -         
+=========================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      5.283
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.337
+
+    Number of logic level(s):                8
+    Starting point:                          I_upravljac.R_AddrB[1] / Q
+    Ending point:                            I_regfile.R1[1] / D
+    The start point is clocked by            datapath|clk_25m [rising] on pin CK
+    The end   point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+I_upravljac.R_AddrB[1]     FD1S3AX      Q        Out     1.075     1.075       -         
+AddrB[1]                   Net          -        -       -         -           16        
+I_regfile.B_3_am[1]        ORCALUT4     A        In      0.000     1.075       -         
+I_regfile.B_3_am[1]        ORCALUT4     Z        Out     0.606     1.681       -         
+B_3_am[1]                  Net          -        -       -         -           1         
+I_regfile.B_3[1]           PFUMX        BLUT     In      0.000     1.681       -         
+I_regfile.B_3[1]           PFUMX        Z        Out     0.505     2.186       -         
+B[1]                       Net          -        -       -         -           3         
+I_upravljac.Bmux[1]        ORCALUT4     C        In      0.000     2.186       -         
+I_upravljac.Bmux[1]        ORCALUT4     Z        Out     0.180     2.366       -         
+Bmux[1]                    Net          -        -       -         -           12        
+I_alu.srll_7_N_2L1         ORCALUT4     C        In      0.000     2.366       -         
+I_alu.srll_7_N_2L1         ORCALUT4     Z        Out     0.606     2.972       -         
+srll_7_N_2L1               Net          -        -       -         -           1         
+I_alu.srll_7               ORCALUT4     D        In      0.000     2.972       -         
+I_alu.srll_7               ORCALUT4     Z        Out     0.606     3.578       -         
+N_6                        Net          -        -       -         -           1         
+I_alu.Z_5_am[1]            ORCALUT4     C        In      0.000     3.578       -         
+I_alu.Z_5_am[1]            ORCALUT4     Z        Out     0.606     4.184       -         
+Z_5_am[1]                  Net          -        -       -         -           1         
+I_alu.Z_5[1]               PFUMX        BLUT     In      0.000     4.184       -         
+I_alu.Z_5[1]               PFUMX        Z        Out     0.403     4.587       -         
+N_26                       Net          -        -       -         -           1         
+I_alu.Z_6[1]               L6MUX21      D1       In      0.000     4.587       -         
+I_alu.Z_6[1]               L6MUX21      Z        Out     0.696     5.283       -         
+W[1]                       Net          -        -       -         -           4         
+I_regfile.R1[1]            FD1P3AX      D        In      0.000     5.283       -         
+=========================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      5.283
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.337
+
+    Number of logic level(s):                8
+    Starting point:                          I_upravljac.R_AddrB[1] / Q
+    Ending point:                            I_regfile.R2[1] / D
+    The start point is clocked by            datapath|clk_25m [rising] on pin CK
+    The end   point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+I_upravljac.R_AddrB[1]     FD1S3AX      Q        Out     1.075     1.075       -         
+AddrB[1]                   Net          -        -       -         -           16        
+I_regfile.B_3_am[1]        ORCALUT4     A        In      0.000     1.075       -         
+I_regfile.B_3_am[1]        ORCALUT4     Z        Out     0.606     1.681       -         
+B_3_am[1]                  Net          -        -       -         -           1         
+I_regfile.B_3[1]           PFUMX        BLUT     In      0.000     1.681       -         
+I_regfile.B_3[1]           PFUMX        Z        Out     0.505     2.186       -         
+B[1]                       Net          -        -       -         -           3         
+I_upravljac.Bmux[1]        ORCALUT4     C        In      0.000     2.186       -         
+I_upravljac.Bmux[1]        ORCALUT4     Z        Out     0.180     2.366       -         
+Bmux[1]                    Net          -        -       -         -           12        
+I_alu.srll_7_N_2L1         ORCALUT4     C        In      0.000     2.366       -         
+I_alu.srll_7_N_2L1         ORCALUT4     Z        Out     0.606     2.972       -         
+srll_7_N_2L1               Net          -        -       -         -           1         
+I_alu.srll_7               ORCALUT4     D        In      0.000     2.972       -         
+I_alu.srll_7               ORCALUT4     Z        Out     0.606     3.578       -         
+N_6                        Net          -        -       -         -           1         
+I_alu.Z_5_am[1]            ORCALUT4     C        In      0.000     3.578       -         
+I_alu.Z_5_am[1]            ORCALUT4     Z        Out     0.606     4.184       -         
+Z_5_am[1]                  Net          -        -       -         -           1         
+I_alu.Z_5[1]               PFUMX        BLUT     In      0.000     4.184       -         
+I_alu.Z_5[1]               PFUMX        Z        Out     0.403     4.587       -         
+N_26                       Net          -        -       -         -           1         
+I_alu.Z_6[1]               L6MUX21      D1       In      0.000     4.587       -         
+I_alu.Z_6[1]               L6MUX21      Z        Out     0.696     5.283       -         
+W[1]                       Net          -        -       -         -           4         
+I_regfile.R2[1]            FD1P3AX      D        In      0.000     5.283       -         
+=========================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      5.283
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.337
+
+    Number of logic level(s):                8
+    Starting point:                          I_upravljac.R_AddrB[1] / Q
+    Ending point:                            I_regfile.R3[1] / D
+    The start point is clocked by            datapath|clk_25m [rising] on pin CK
+    The end   point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+I_upravljac.R_AddrB[1]     FD1S3AX      Q        Out     1.075     1.075       -         
+AddrB[1]                   Net          -        -       -         -           16        
+I_regfile.B_3_am[1]        ORCALUT4     A        In      0.000     1.075       -         
+I_regfile.B_3_am[1]        ORCALUT4     Z        Out     0.606     1.681       -         
+B_3_am[1]                  Net          -        -       -         -           1         
+I_regfile.B_3[1]           PFUMX        BLUT     In      0.000     1.681       -         
+I_regfile.B_3[1]           PFUMX        Z        Out     0.505     2.186       -         
+B[1]                       Net          -        -       -         -           3         
+I_upravljac.Bmux[1]        ORCALUT4     C        In      0.000     2.186       -         
+I_upravljac.Bmux[1]        ORCALUT4     Z        Out     0.180     2.366       -         
+Bmux[1]                    Net          -        -       -         -           12        
+I_alu.srll_7_N_2L1         ORCALUT4     C        In      0.000     2.366       -         
+I_alu.srll_7_N_2L1         ORCALUT4     Z        Out     0.606     2.972       -         
+srll_7_N_2L1               Net          -        -       -         -           1         
+I_alu.srll_7               ORCALUT4     D        In      0.000     2.972       -         
+I_alu.srll_7               ORCALUT4     Z        Out     0.606     3.578       -         
+N_6                        Net          -        -       -         -           1         
+I_alu.Z_5_am[1]            ORCALUT4     C        In      0.000     3.578       -         
+I_alu.Z_5_am[1]            ORCALUT4     Z        Out     0.606     4.184       -         
+Z_5_am[1]                  Net          -        -       -         -           1         
+I_alu.Z_5[1]               PFUMX        BLUT     In      0.000     4.184       -         
+I_alu.Z_5[1]               PFUMX        Z        Out     0.403     4.587       -         
+N_26                       Net          -        -       -         -           1         
+I_alu.Z_6[1]               L6MUX21      D1       In      0.000     4.587       -         
+I_alu.Z_6[1]               L6MUX21      Z        Out     0.696     5.283       -         
+W[1]                       Net          -        -       -         -           4         
+I_regfile.R3[1]            FD1P3AX      D        In      0.000     5.283       -         
+=========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: upravljac|R_keys_last_derived_clock[3]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                                 Arrival          
+Instance            Reference                                  Type        Pin     Net       Time        Slack
+                    Clock                                                                                     
+--------------------------------------------------------------------------------------------------------------
+I_regfile.R0[1]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R0[1]     0.907       2.802
+I_regfile.R0[3]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R0[3]     0.907       2.802
+I_regfile.R1[1]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R1[1]     0.907       2.802
+I_regfile.R1[3]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R1[3]     0.907       2.802
+I_regfile.R2[1]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R2[1]     0.907       2.802
+I_regfile.R2[3]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R2[3]     0.907       2.802
+I_regfile.R3[1]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R3[1]     0.907       2.802
+I_regfile.R3[3]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R3[3]     0.907       2.802
+I_regfile.R0[0]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R0[0]     0.907       2.850
+I_regfile.R0[2]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX     Q       R0[2]     0.907       2.850
+==============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                    Required          
+Instance            Reference                                  Type         Pin     Net         Time         Slack
+                    Clock                                                                                         
+------------------------------------------------------------------------------------------------------------------
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     B1      Bmux[1]     5.000        2.802
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     B3      Bmux[3]     5.000        2.802
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     B0      Bmux[0]     5.000        2.850
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     B2      Bmux[2]     5.000        2.850
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     A1      A[1]        5.000        2.880
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     A2      A[2]        5.000        2.892
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     A3      A[3]        5.000        2.892
+I_alu.mull[3:0]     upravljac|R_keys_last_derived_clock[3]     MULT9X9D     A0      A[0]        5.000        2.898
+I_regfile.R0[1]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX      D       W[1]        9.946        4.831
+I_regfile.R1[1]     upravljac|R_keys_last_derived_clock[3]     FD1P3AX      D       W[1]        9.946        4.831
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      2.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.802
+
+    Number of logic level(s):                3
+    Starting point:                          I_regfile.R0[1] / Q
+    Ending point:                            I_alu.mull[3:0] / B1
+    The start point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                    Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+I_regfile.R0[1]         FD1P3AX      Q        Out     0.907     0.907       -         
+R0[1]                   Net          -        -       -         -           2         
+I_regfile.B_3_am[1]     ORCALUT4     B        In      0.000     0.907       -         
+I_regfile.B_3_am[1]     ORCALUT4     Z        Out     0.606     1.513       -         
+B_3_am[1]               Net          -        -       -         -           1         
+I_regfile.B_3[1]        PFUMX        BLUT     In      0.000     1.513       -         
+I_regfile.B_3[1]        PFUMX        Z        Out     0.505     2.018       -         
+B[1]                    Net          -        -       -         -           3         
+I_upravljac.Bmux[1]     ORCALUT4     C        In      0.000     2.018       -         
+I_upravljac.Bmux[1]     ORCALUT4     Z        Out     0.180     2.198       -         
+Bmux[1]                 Net          -        -       -         -           12        
+I_alu.mull[3:0]         MULT9X9D     B1       In      0.000     2.198       -         
+======================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                       Arrival          
+Instance            Reference     Type         Pin     Net         Time        Slack
+                    Clock                                                           
+------------------------------------------------------------------------------------
+I_alu.mull[3:0]     System        MULT9X9D     P0      mull[0]     0.000       2.593
+I_alu.mull[3:0]     System        MULT9X9D     P1      mull[1]     0.000       3.241
+I_alu.mull[3:0]     System        MULT9X9D     P2      mull[2]     0.000       3.625
+I_alu.mull[3:0]     System        MULT9X9D     P3      mull[3]     0.000       3.625
+====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                       Required          
+Instance            Reference     Type        Pin     Net          Time         Slack
+                    Clock                                                            
+-------------------------------------------------------------------------------------
+I_regfile.R0[0]     System        FD1P3AX     D       W[0]         4.946        2.593
+I_regfile.R1[0]     System        FD1P3AX     D       W[0]         4.946        2.593
+I_regfile.R2[0]     System        FD1P3AX     D       W[0]         4.946        2.593
+I_regfile.R3[0]     System        FD1P3AX     D       W[0]         4.946        2.593
+I_regfile.R0[1]     System        FD1P3AX     D       W[1]         4.946        3.241
+I_regfile.R1[1]     System        FD1P3AX     D       W[1]         4.946        3.241
+I_regfile.R2[1]     System        FD1P3AX     D       W[1]         4.946        3.241
+I_regfile.R3[1]     System        FD1P3AX     D       W[1]         4.946        3.241
+I_regfile.R0[2]     System        FD1P3AX     D       W_2_rep1     4.946        3.625
+I_regfile.R0[3]     System        FD1P3AX     D       W_3_rep1     4.946        3.625
+=====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      2.353
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 2.593
+
+    Number of logic level(s):                4
+    Starting point:                          I_alu.mull[3:0] / P0
+    Ending point:                            I_regfile.R0[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            upravljac|R_keys_last_derived_clock[3] [rising] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                    Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+I_alu.mull[3:0]         MULT9X9D     P0       Out     0.000     0.000       -         
+mull[0]                 Net          -        -       -         -           1         
+I_alu.Z_6_bm_1_1[0]     ORCALUT4     D        In      0.000     0.000       -         
+I_alu.Z_6_bm_1_1[0]     ORCALUT4     Z        Out     0.606     0.606       -         
+Z_6_bm_1_1[0]           Net          -        -       -         -           1         
+I_alu.Z_6_bm_1[0]       ORCALUT4     D        In      0.000     0.606       -         
+I_alu.Z_6_bm_1[0]       ORCALUT4     Z        Out     0.606     1.212       -         
+Z_6_bm_1[0]             Net          -        -       -         -           1         
+I_alu.Z_6_bm[0]         ORCALUT4     C        In      0.000     1.212       -         
+I_alu.Z_6_bm[0]         ORCALUT4     Z        Out     0.606     1.818       -         
+Z_6_bm[0]               Net          -        -       -         -           1         
+I_alu.Z_6[0]            PFUMX        ALUT     In      0.000     1.818       -         
+I_alu.Z_6[0]            PFUMX        Z        Out     0.535     2.353       -         
+W[0]                    Net          -        -       -         -           4         
+I_regfile.R0[0]         FD1P3AX      D        In      0.000     2.353       -         
+======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 153MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 153MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_12f-6
+
+Register bits: 60 of 12096 (0%)
+PIC Latch:       0
+I/O cells:       18
+
+DSP primitives:       1 of 24 (4%)
+
+Details:
+CCU2C:          17
+FD1P3AX:        17
+FD1S3AX:        8
+FD1S3IX:        25
+FD1S3JX:        7
+GSR:            1
+IB:             10
+IFS1P3DX:       3
+INV:            1
+L6MUX21:        1
+MULT9X9D:       1
+OB:             8
+ORCALUT4:       93
+PFUMX:          15
+PUR:            1
+VHI:            4
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 153MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Jan 19 10:11:25 2024
+
+###########################################################]

@@ -1,0 +1,84 @@
+----------------------------------------------------------------------
+Report for cell morse_top.struct
+
+Register bits: 233 of 12096 (2%)
+PIC Latch:       0
+I/O cells:       25
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                              CCU2C       66       100.0
+                            FD1P3AX       22       100.0
+                            FD1P3AY        8       100.0
+                            FD1P3IX       67       100.0
+                            FD1P3JX        8       100.0
+                            FD1S3AX       96       100.0
+                            FD1S3IX       22       100.0
+                            FD1S3JX        8       100.0
+                                GSR        1       100.0
+                                 IB        8       100.0
+                                INV        3       100.0
+                         MULT18X18D        4       100.0
+                                 OB       17       100.0
+                           OFS1P3BX        1       100.0
+                           OFS1P3DX        1       100.0
+                           ORCALUT4      174       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        4       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                              morse        1       100.0
+                          serial_tx        1       100.0
+                            tonegen        1       100.0
+                            
+                         TOTAL           519           
+----------------------------------------------------------------------
+Report for cell tonegen.netlist
+     Instance path:  tonegen
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2       100.0
+                              CCU2C       21        31.8
+                            FD1P3AX       19        86.4
+                            FD1P3IX       44        65.7
+                            FD1S3AX       36        37.5
+                            FD1S3IX        1         4.5
+                            FD1S3JX        8       100.0
+                                INV        1        33.3
+                         MULT18X18D        4       100.0
+                           ORCALUT4       56        32.2
+                                VHI        1        25.0
+                                VLO        1        50.0
+                            
+                         TOTAL           194           
+----------------------------------------------------------------------
+Report for cell serial_tx.netlist
+     Instance path:  serializer
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       29        43.9
+                            FD1P3AX        3        13.6
+                            FD1P3AY        8       100.0
+                            FD1P3IX       23        34.3
+                            FD1P3JX        8       100.0
+                            FD1S3AX       23        24.0
+                            FD1S3IX        5        22.7
+                                INV        1        33.3
+                           ORCALUT4       59        33.9
+                                VHI        1        25.0
+                            
+                         TOTAL           160           
+----------------------------------------------------------------------
+Report for cell morse.netlist
+     Instance path:  fsm
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        3         3.1
+                            FD1S3IX        5        22.7
+                                INV        1        33.3
+                           ORCALUT4       27        15.5
+                              PFUMX        1       100.0
+                                VHI        1        25.0
+                            
+                         TOTAL            38           

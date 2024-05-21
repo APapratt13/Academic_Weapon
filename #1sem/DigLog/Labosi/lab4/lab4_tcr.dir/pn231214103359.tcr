@@ -1,0 +1,7 @@
+#Start recording tcl command: 12/14/2023 08:39:37
+#Project Location: C:/DL-labosi/lab4; Project name: lab4
+prj_project open "C:/DL-labosi/lab4/lab4.ldf"
+prj_src exclude "C:/DL-labosi/lab4/count_ce.vhd"
+prj_src enable "C:/DL-labosi/lab4/count.vhd"
+prj_run Export -impl impl1
+#Stop recording: 12/14/2023 10:33:59

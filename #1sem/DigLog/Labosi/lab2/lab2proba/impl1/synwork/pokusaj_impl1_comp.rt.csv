@@ -1,0 +1,9 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, lab2, 0h:00m:00s,     72 MB
+work, OB, 0h:00m:00s,     72 MB
+work, OR4, 0h:00m:00s,     72 MB
+work, OR2, 0h:00m:00s,     72 MB
+work, AND2, 0h:00m:00s,     72 MB
+work, INV, 0h:00m:00s,     72 MB
+work, OR3, 0h:00m:00s,     72 MB
+work, Entity: serial_tx Architecture: behavioral, 0h:00m:00s,     77 MB
