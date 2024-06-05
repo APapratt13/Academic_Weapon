@@ -1,4 +1,4 @@
-package lab05.jesusTheSavior.GREJS;
+package lab05.jesusTheSavior.GREJS.gardenPlants;
 
 import java.util.List;
 import java.util.function.BiConsumer;
@@ -52,7 +52,7 @@ public class Task {
 //			}
 				
 			};
-			}
+	}
 		
 	
 	public static BiFunction<Garden, Garden, Integer> numberOfSamePlantsFunction(){
@@ -61,8 +61,8 @@ public class Task {
 			@Override
 			public Integer apply(Garden t, Garden u) {
 				int v=0;
-				for(Plant p:t.getPlants()) {
-					for(Plant p2:u.getPlants()) {
+				for(Plant p : t.getPlants()) {
+					for(Plant p2 : u.getPlants()) {
 						if(p.equals(p2)) {
 							v++;
 						}

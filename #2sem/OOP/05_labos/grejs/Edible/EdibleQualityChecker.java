@@ -1,4 +1,4 @@
-package lab05.jesusTheSavior.GREJS;
+package lab05.jesusTheSavior.GREJS.edibleShit;
 
 import java.util.Comparator;
 import java.util.function.Predicate;

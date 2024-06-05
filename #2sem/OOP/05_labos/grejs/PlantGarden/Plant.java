@@ -1,4 +1,4 @@
-package lab05.jesusTheSavior.GREJS;
+package lab05.jesusTheSavior.GREJS.gardenPlants;
 
 class Plant {
     private String latinName; // latin name for the plant
