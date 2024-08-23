@@ -4,3 +4,6 @@ svaki prof je snimio neki video, kompilacija Burićevih, Laninih i Mervanovih pr
 -->Pogledajte playlistu [ovdje](https://www.youtube.com/playlist?list=PLwopTRhr8RhsTko6nWswyTU-O0l0Ydcxd).
 
 Sretno :)
+
+Rendom lik [TM egzistencija i jedinstvenojst (DJ prvog reda)](https://youtube.com/playlist?list=PLj7p5OoL6vGz7zBJ0vm5jnG04J3VF4Rkb&si=lXYpet9TMkmePkt5).
+- [Primjer kako funkcioniraju Peanov i Pickardov TM](https://www.youtube.com/watch?v=SYM6vQnAwrY).
