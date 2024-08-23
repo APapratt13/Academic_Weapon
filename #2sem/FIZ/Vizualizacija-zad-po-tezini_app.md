@@ -1,4 +1,4 @@
-Discord 
+Discord/n 
 Napravio sam app koji vizualizira zadatke po tome koliko su slični. Tj. svaka točkica tu je zadatak i što je taj zadatak bliže to su zadaci sličniji. Cool stvar je ako postoji nakupina zadatak to znači da je to nešto kaj se ponavlja. 
 
 Ovo nije dovršeno ali pošto idu rokovi reko da pošaljem. Probajte na [ovom linku](https://tockice-v2.vercel.app/fer).
