@@ -5,7 +5,7 @@ Privatni repozitorij (uži krug ljudi ima link).
 - ako nađete grešku recite, potrudit ću se ispraviti
 
 TO DO:
-> ELE1 - napraviti bilješke za 5.cjelinu <
+> ELE1 - napraviti bilješke za 5.cjelinu
 > ELEKRU - završiti 9.video i uploadati primjenu Laplacea
 > FIZ2 - do 8.ppt [4+ videa joj]
 > MATAN3 - Fourierova transformacija (srediti) + Fourier zadaci
