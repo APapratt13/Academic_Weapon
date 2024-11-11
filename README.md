@@ -6,7 +6,7 @@ Privatni repozitorij (uži krug ljudi ima link).
 
 # TO DO:
 - ELE1 - napraviti bilješke za 5.cjelinu 
-- ELEKRU - laplace i jedzb mreza + [LV3]
+- ELEKRU - [LV3]
 - FIZ2 - do 8.ppt [4+ videa joj] + [LV1]
 - MATAN3 - Fourierova transformacija (srediti) + Fourier zadaci
 - MUE - dodaj ispravljeno LV3, popravi i dodaj LV6 + [LV5 i 6]
