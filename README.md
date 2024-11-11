@@ -5,8 +5,8 @@ Privatni repozitorij (uži krug ljudi ima link).
 - ako nađete grešku recite, potrudit ću se ispraviti
 
 # TO DO:
-- ELE1 - napraviti bilješke za 5.cjelinu
-- ELEKRU - završiti 9.video i uploadati primjenu Laplacea
-- FIZ2 - do 8.ppt [4+ videa joj]
+- ELE1 - napraviti bilješke za 5.cjelinu 
+- ELEKRU - laplace i jedzb mreza + [LV3]
+- FIZ2 - do 8.ppt [4+ videa joj] + [LV1]
 - MATAN3 - Fourierova transformacija (srediti) + Fourier zadaci
-- MUE - dodaj ispravljeno LV3, popravi i dodaj LV6
+- MUE - dodaj ispravljeno LV3, popravi i dodaj LV6 + [LV5 i 6]
