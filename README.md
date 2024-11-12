@@ -5,8 +5,8 @@ Privatni repozitorij (uži krug ljudi ima link).
 - ako nađete grešku recite, potrudit ću se ispraviti
 
 # TO DO:
-- ELE1 - napraviti bilješke za 5.cjelinu 
-- ELEKRU - [LV3]
+- ELE1 - napraviti bilješke za 5.cjelinu + (zzv)
+- ELEKRU - [LV3] + videi
 - FIZ2 - do 8.ppt [4+ videa joj] + [LV1]
-- MATAN3 - Fourierova transformacija (srediti) + Fourier zadaci
-- MUE - dodaj ispravljeno LV3, popravi i dodaj LV6 + [LV5 i 6]
+- MATAN3 - (Fourier zadaci) + [4.Vektorska - do Laplacovog operatora]
+- MUE - dodaj ispravljeno LV3 + LV6 + doradi LV5 [mjerenja i odg za prvi pokus]
