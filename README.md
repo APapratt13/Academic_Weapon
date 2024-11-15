@@ -7,6 +7,6 @@ Privatni repozitorij (uži krug ljudi ima link).
 # TO DO:
 - ELE1 - napraviti bilješke za 5.cjelinu
 - ELEKRU - videi 11+12
-- FIZ2 - do 8.ppt [4+ videa joj]
-- MATAN3 - (Fourier zadaci) + [4.Vektorska - do Laplacovog operatora]
-- MUE - <<trebala bi ucit>>
+- FIZ2 - do 8.ppt <4+ videa joj>
+- MATAN3 - <Fourier zadaci> 4.Vektorska - do Laplacovog operatora
+- MUE - <trebala bi ucit>
