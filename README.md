@@ -5,8 +5,8 @@ Privatni repozitorij (uži krug ljudi ima link).
 - ako nađete grešku recite, potrudit ću se ispraviti
 
 # TO DO:
-- ELE1 - napraviti bilješke za 5.cjelinu
+- ELE1 - <zadaci i ispiti>
 - ELEKRU - videi 11+12
-- FIZ2 - do 8.ppt <(4+) videa joj >
+- FIZ2 - do 8.ppt < cetiri videa joj >
 - MATAN3 - <Fourier zadaci> 4.Vektorska - do Laplacovog operatora
 - MUE - <trebala bi ucit>
