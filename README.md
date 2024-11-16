@@ -7,6 +7,6 @@ Privatni repozitorij (uži krug ljudi ima link).
 # TO DO:
 - ELE1 - <zadaci i ispiti>
 - ELEKRU - videi 11+12
-- FIZ2 - do 8.ppt < puno joj >
+- FIZ2 - do 8.ppt <puno joj>
 - MATAN3 - <Fourier zadaci> 4.Vektorska - do Laplacovog operatora
 - MUE - <trebala bi ucit>
