@@ -5,8 +5,8 @@ Privatni repozitorij (uži krug ljudi ima link).
 - ako nađete grešku recite, potrudit ću se ispraviti
 
 # TO DO:
-- ELE1 - <zadaci i ispiti>
-- ELEKRU - videi 11+12
-- FIZ2 - do 8.ppt <puno joj>
-- MATAN3 - <Fourier zadaci> 4.Vektorska - do Laplacovog operatora
+- ELE1 - 
+- ELEKRU - videi 12+13
+- FIZ2 - 
+- MATAN3 - <Vektorska- do Laplacovog operatora>
 - MUE - <trebala bi ucit>
