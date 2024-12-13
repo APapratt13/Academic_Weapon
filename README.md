@@ -5,8 +5,8 @@ Privatni repozitorij (uži krug ljudi ima link).
 - ako nađete grešku recite, potrudit ću se ispraviti
 
 # TO DO:
-- ELE1 - 
-- ELEKRU - videi 12+13
-- FIZ2 - 
-- MATAN3 - <Vektorska- do Laplacovog operatora>
-- MUE - <trebala bi ucit>
+- ELE1 - 6.cjelina
+- ELEKRU - novi ciklus
+- FIZ2 - 8. predavanje + lab2
+- MATAN3 - vektorska
+- MUE - lab 10
